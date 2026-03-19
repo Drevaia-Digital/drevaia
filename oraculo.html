@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Oráculo emocional — Recibe un mensaje para este momento | Drevaia Digital</title>
+
+<meta name="description" content="Respira un momento y recibe un mensaje del oráculo emocional de Drevaia. Una reflexión para comprender lo que estás viviendo hoy.">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://drevaia.com/oraculo.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Drevaia Digital">
+<meta property="og:title" content="Oráculo emocional — Recibe un mensaje para este momento">
+<meta property="og:description" content="Respira un momento y recibe una reflexión del oráculo emocional de Drevaia para comprender lo que estás viviendo hoy.">
+<meta property="og:url" content="https://drevaia.com/oraculo.html">
+<meta property="og:image" content="https://drevaia.com/og-drevaia.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_ES">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Oráculo emocional — Drevaia Digital">
+<meta name="twitter:description" content="Haz una pausa y recibe un mensaje para este momento de tu vida.">
+<meta name="twitter:image" content="https://drevaia.com/og-drevaia.webp">
+<meta name="twitter:url" content="https://drevaia.com/oraculo.html">
+
+<link rel="stylesheet" href="css/drevaia.css">
+
+<style>
+
+/* ===== ORÁCULO ===== */
+
+.oracle-container{
+max-width:720px;
+margin:80px auto;
+text-align:center;
+}
+
+.oracle-intro{
+font-size:18px;
+color:rgba(255,255,255,0.75);
+margin-bottom:40px;
+line-height:1.7;
+}
+
+.oracle-card{
+background:rgba(255,255,255,0.04);
+border:1px solid rgba(255,255,255,0.08);
+border-radius:18px;
+padding:40px 32px;
+margin-top:30px;
+opacity:0;
+transform:translateY(10px);
+transition:all .5s ease;
+box-shadow:0 10px 40px rgba(0,0,0,0.35);
+}
+
+.oracle-card.show{
+opacity:1;
+transform:translateY(0);
+}
+
+.oracle-text{
+font-family:"Cormorant Garamond", serif;
+font-size:26px;
+line-height:1.6;
+color:#fff;
+}
+
+.oracle-btn{
+margin-top:30px;
+display:inline-block;
+padding:12px 26px;
+border-radius:999px;
+border:1px solid var(--gold);
+color:var(--gold);
+text-decoration:none;
+font-weight:600;
+background:transparent;
+cursor:pointer;
+transition:0.25s ease;
+}
+
+.oracle-btn:hover{
+background:var(--gold);
+color:#000;
+transform:translateY(-2px);
+}
+
+.oracle-link{
+margin-top:25px;
+display:block;
+font-size:15px;
+color:var(--gold);
+text-decoration:none;
+}
+
+.oracle-link:hover{
+text-decoration:underline;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+<div class="oracle-container">
+
+<h1>Oráculo emocional</h1>
+
+<p class="oracle-intro">
+Respira un momento.<br>
+Haz una pregunta interior.<br>
+Cuando estés listo, revela una respuesta.
+</p>
+
+<button class="oracle-btn" onclick="revelarMensaje()">
+Abrir respuesta
+</button>
+
+<div id="oracleCard" class="oracle-card">
+
+<p id="oracleText" class="oracle-text"></p>
+
+<a id="oracleLink" class="oracle-link"></a>
+
+<button id="shareOracle" class="oracle-btn" style="display:none; margin-top:20px;">
+Compartir esta carta
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<section style="max-width:720px;margin:80px auto;color:rgba(255,255,255,0.65);line-height:1.8;font-size:16px;">
+
+<h2>¿Qué es el oráculo emocional?</h2>
+
+<p>
+El oráculo emocional de Drevaia es un espacio de reflexión interior.
+No ofrece respuestas mágicas ni predicciones.
+Ofrece algo más simple y profundo: palabras que pueden ayudarte a
+comprender lo que estás sintiendo en este momento de tu vida.
+</p>
+
+<p>
+A veces necesitamos detenernos, respirar y escuchar una pregunta
+que llevamos dentro. Una frase puede abrir una perspectiva nueva
+o recordarnos algo que habíamos olvidado.
+</p>
+
+<p>
+Cada vez que revelas una carta del oráculo, aparece una reflexión
+diferente. Algunas hablan de miedo, otras de cambio, cansancio,
+soledad o crecimiento interior.
+</p>
+
+<p>
+Si una frase resuena contigo, puedes explorar también las lecturas
+emocionales de Drevaia y el mapa de preguntas interiores.
+</p>
+
+</section>
+
+<script>
+
+const respuestas = [
+
+{
+texto:"A veces no estás perdido. Solo estás cambiando de dirección.",
+link:"/por-que-me-siento-perdido.html",
+cta:"Explorar esta reflexión"
+},
+
+{
+texto:"El vacío que sientes no siempre es ausencia. A veces es espacio para algo nuevo.",
+link:"/por-que-me-siento-vacio.html",
+cta:"Comprender esta sensación"
+},
+
+{
+texto:"No todo cansancio es físico. A veces el alma también necesita descanso.",
+link:"/por-que-me-siento-cansado-de-todo.html",
+cta:"Leer esta reflexión"
+},
+
+{
+texto:"La tristeza no siempre es debilidad. A veces es una emoción que pide ser escuchada.",
+link:"/por-que-me-siento-triste-sin-motivo.html",
+cta:"Explorar esta pregunta"
+},
+
+{
+texto:"Sentirte solo no significa que no haya amor en tu vida. A veces solo necesitas volver a ti.",
+link:"/por-que-me-siento-solo.html",
+cta:"Leer esta reflexión"
+},
+
+{
+texto:"El miedo no siempre señala peligro. A veces señala crecimiento.",
+link:"/como-superar-el-miedo.html",
+cta:"Comprender el miedo"
+},
+
+{
+texto:"No necesitas tener todas las respuestas hoy. A veces basta con hacer una pregunta honesta.",
+link:"/mapa-emocional.html",
+cta:"Explorar el mapa emocional"
+}
+
+];
+
+function revelarMensaje(){
+
+const random = respuestas[Math.floor(Math.random()*respuestas.length)];
+
+document.getElementById("oracleText").innerText = random.texto;
+
+const link = document.getElementById("oracleLink");
+link.href = random.link;
+link.innerText = random.cta;
+
+const card = document.getElementById("oracleCard");
+card.classList.add("show");
+
+/* mostrar botón compartir */
+const shareBtn = document.getElementById("shareOracle");
+if(shareBtn){
+shareBtn.style.display="inline-block";
+}
+
+}
+
+/* ===== COMPARTIR CARTA ===== */
+
+const shareBtn = document.getElementById("shareOracle");
+
+if(shareBtn){
+
+shareBtn.onclick = function(){
+
+const text = document.getElementById("oracleText").innerText;
+
+const shareText =
+"Hoy el oráculo emocional de Drevaia me dijo:\n\n" +
+text +
+"\n\nhttps://drevaia.com/oraculo.html";
+
+if(navigator.share){
+
+navigator.share({
+title:"Oráculo emocional — Drevaia",
+text:shareText,
+url:"https://drevaia.com/oraculo.html"
+});
+
+}else{
+
+navigator.clipboard.writeText(shareText);
+alert("Mensaje copiado para compartir.");
+
+}
+
+};
+
+}
+</script>
+
+</body>
+
+</html>

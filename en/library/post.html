@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Drevaia Digital — English Library</title>
+<meta name="description" content="An emotional library of healing ebooks. Choose what you are feeling today.">
+
+<link rel="canonical" href="https://drevaia.com/en/library/post.html">
+
+<link rel="stylesheet" href="/css/drevaia.css">
+
+<style>
+.search-wrap{
+  max-width: 640px;
+  margin: 0 auto 60px;
+}
+
+.search-input{
+  width:100%;
+  padding:14px 22px;
+  border-radius:999px;
+  border:1px solid rgba(212,176,140,0.45);
+  background:rgba(255,255,255,0.04);
+  color:#eee;
+  font-size:16px;
+}
+
+.search-input::placeholder{
+  color:rgba(255,255,255,0.45);
+}
+
+.books{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:26px;
+}
+
+.book{
+  background:#121216;
+  padding:26px;
+  border-radius:16px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<h1>English Library</h1>
+
+<p class="intro">
+This library is not ordered by importance.  
+Choose by what you are feeling today.
+</p>
+
+<!-- 🔍 SEARCH -->
+<div class="search-wrap">
+  <input
+    id="ebookSearchInput"
+    class="search-input"
+    type="text"
+    placeholder="Search by feeling, theme or title…">
+</div>
+
+<!-- 📚 BOOKS -->
+<div class="books">
+
+  <!-- WHISPERS -->
+  <div class="book"
+    data-search="whispers silence emotional healing inner voice calm refuge">
+
+    <h3>Whispers</h3>
+
+    <p>
+      For the days when everything feels loud inside.<br>
+      <strong>This book sits with you in silence.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/9cjAv" target="_blank">View in store</a>
+  </div>
+
+  <!-- MIRRORS -->
+  <div class="book"
+    data-search="mirrors reflection patterns self awareness healing truth">
+
+    <h3>Mirrors</h3>
+
+    <p>
+      To look at what you avoided without punishing yourself.<br>
+      <strong>It reveals patterns so you can choose differently.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/cFJTb" target="_blank">View in store</a>
+  </div>
+
+  <!-- HUGS -->
+  <div class="book"
+    data-search="hugs comfort rest emotional support softness">
+
+    <h3>Hugs</h3>
+
+    <p>
+      For when being strong feels exhausting.<br>
+      <strong>You don’t have to explain yourself here.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/eJASi" target="_blank">View in store</a>
+  </div>
+
+</div>
+
+</div>
+
+<!-- 🔎 SEARCH SCRIPT -->
+<script>
+const searchInput = document.getElementById("ebookSearchInput");
+const books = document.querySelectorAll(".book");
+
+if (searchInput) {
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase().trim();
+
+    books.forEach(book => {
+      const text = book.dataset.search || "";
+      book.style.display =
+        query === "" || text.includes(query)
+          ? "block"
+          : "none";
+    });
+  });
+
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const firstMatch = document.querySelector(
+        ".book:not([style*='display: none'])"
+      );
+      if (firstMatch) {
+        firstMatch.scrollIntoView({ behavior: "auto", block: "start" });
+      }
+    }
+  });
+}
+</script>
+
+</body>
+</html>

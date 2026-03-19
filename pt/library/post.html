@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Drevaia Digital — Biblioteca Emocional</title>
+<meta name="description" content="Uma biblioteca emocional de ebooks para curar, compreender e reconectar-se consigo. Escolha de acordo com o que você sente hoje.">
+
+<link rel="canonical" href="https://drevaia.com/pt/library/post.html">
+
+<link rel="stylesheet" href="/css/drevaia.css">
+
+<style>
+.search-wrap{
+  max-width:640px;
+  margin:0 auto 60px;
+}
+
+.search-input{
+  width:100%;
+  padding:14px 22px;
+  border-radius:999px;
+  border:1px solid rgba(212,176,140,0.45);
+  background:rgba(255,255,255,0.04);
+  color:#eee;
+  font-size:16px;
+}
+
+.search-input::placeholder{
+  color:rgba(255,255,255,0.45);
+}
+
+.books{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:26px;
+}
+
+.book{
+  background:#121216;
+  padding:26px;
+  border-radius:16px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<h1>Biblioteca em Português</h1>
+
+<p class="intro">
+Esta biblioteca não está organizada por importância.<br>
+Escolha de acordo com o que você sente hoje.
+</p>
+
+<!-- 🔍 BUSCA -->
+<div class="search-wrap">
+  <input
+    id="ebookSearchInput"
+    class="search-input"
+    type="text"
+    placeholder="Buscar por emoção, tema ou palavra…">
+</div>
+
+<!-- 📚 EBOOKS -->
+<div class="books">
+
+  <!-- SUSSURROS -->
+  <div class="book"
+    data-search="sussurros silêncio cura emocional voz interior calma refúgio">
+
+    <h3>Sussurros</h3>
+
+    <p>
+      Para os dias em que tudo faz barulho por dentro.<br>
+      <strong>Este livro se senta com você em silêncio.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/9cjAv" target="_blank" rel="noopener">
+      Ver na loja
+    </a>
+  </div>
+
+  <!-- ESPELHOS -->
+  <div class="book"
+    data-search="espelhos reflexão padrões consciência cura verdade interior">
+
+    <h3>Espelhos</h3>
+
+    <p>
+      Para olhar o que você evitou sem se punir.<br>
+      <strong>Revela padrões para que você possa escolher diferente.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/cFJTb" target="_blank" rel="noopener">
+      Ver na loja
+    </a>
+  </div>
+
+  <!-- ABRAÇOS -->
+  <div class="book"
+    data-search="abraços conforto descanso apoio emocional suavidade">
+
+    <h3>Abraços</h3>
+
+    <p>
+      Quando ser forte se torna cansativo.<br>
+      <strong>Aqui, você não precisa se explicar.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/eJASi" target="_blank" rel="noopener">
+      Ver na loja
+    </a>
+  </div>
+
+</div>
+
+</div>
+
+<!-- 🔎 SCRIPT DE BUSCA -->
+<script>
+const searchInput = document.getElementById("ebookSearchInput");
+const books = document.querySelectorAll(".book");
+
+if (searchInput) {
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase().trim();
+
+    books.forEach(book => {
+      const text = book.dataset.search || "";
+      book.style.display =
+        query === "" || text.includes(query)
+          ? "block"
+          : "none";
+    });
+  });
+
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const firstMatch = document.querySelector(
+        ".book:not([style*='display: none'])"
+      );
+      if (firstMatch) {
+        firstMatch.scrollIntoView({ behavior: "auto", block: "start" });
+      }
+    }
+  });
+}
+</script>
+
+</body>
+</html>

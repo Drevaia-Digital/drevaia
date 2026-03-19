@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Página no encontrada — Drevaia Digital</title>
+
+<meta name="robots" content="noindex, follow">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://drevaia.com/404.html">
+
+<style>
+:root{
+  --bg:#0b0b0d;
+  --card:#121216;
+  --gold:#d4b08c;
+  --soft:#dcdcdc;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  background:var(--bg);
+  color:#eee;
+  font-family:Georgia,serif;
+  line-height:1.8;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.container{
+  max-width:780px;
+  padding:30px 18px;
+  text-align:center;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:20px;
+  padding:32px 26px;
+  box-shadow:0 20px 40px rgba(0,0,0,.45);
+  animation:fadeIn .6s ease;
+}
+
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(10px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+h1{
+  font-size:28px;
+  color:var(--gold);
+  margin-bottom:16px;
+}
+
+p{
+  color:#cfcfcf;
+  margin-bottom:18px;
+}
+
+.lang{display:none;}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 28px;
+  border:1px solid var(--gold);
+  color:var(--gold);
+  text-decoration:none;
+  border-radius:10px;
+  transition:.25s ease;
+}
+
+.btn:hover{
+  background:var(--gold);
+  color:#000;
+}
+
+.btn:focus-visible{
+  outline:2px solid #fff;
+  outline-offset:4px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <!-- Español -->
+    <div class="lang es">
+      <h1>Te veo. Y también veo que esta página no existe.</h1>
+      <p>
+        A veces buscamos respuestas en lugares que no eran para nosotros.<br>
+        Pero no pasa nada. También este camino te trajo hasta aquí.
+      </p>
+      <p>Si quieres, volvemos juntas a la biblioteca.</p>
+      <a href="/" class="btn">Volver a Drevaia Digital</a>
+    </div>
+
+    <!-- English -->
+    <div class="lang en">
+      <h1>I see you. And I also see this page doesn’t exist.</h1>
+      <p>
+        Sometimes we search for answers in places that weren’t meant for us.<br>
+        And that’s okay. This path still brought you here.
+      </p>
+      <p>If you want, we can gently return to the library.</p>
+      <a href="/" class="btn">Return to Drevaia Digital</a>
+    </div>
+
+    <!-- Français -->
+    <div class="lang fr">
+      <h1>Je te vois. Et je vois aussi que cette page n’existe pas.</h1>
+      <p>
+        Parfois, nous cherchons des réponses dans des lieux qui n’étaient pas pour nous.<br>
+        Et c’est d’accord. Ce chemin t’a quand même menée ici.
+      </p>
+      <p>Si tu veux, nous pouvons retourner doucement à la bibliothèque.</p>
+      <a href="/" class="btn">Retourner à Drevaia Digital</a>
+    </div>
+
+    <!-- Português -->
+    <div class="lang pt">
+      <h1>Eu te vejo. E também vejo que esta página não existe.</h1>
+      <p>
+        Às vezes buscamos respostas em lugares que não eram para nós.<br>
+        E tudo bem. Mesmo assim, este caminho trouxe você até aqui.
+      </p>
+      <p>Se quiser, voltamos juntas para a biblioteca.</p>
+      <a href="/" class="btn">Voltar à Drevaia Digital</a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function apply404Lang(){
+
+  let lang = localStorage.getItem("drevaiaLang");
+
+  if(!lang){
+    const nav = navigator.language || "es";
+
+    if(nav.startsWith("es")) lang="es";
+    else if(nav.startsWith("en")) lang="en";
+    else if(nav.startsWith("fr")) lang="fr";
+    else if(nav.startsWith("pt")) lang="pt";
+    else lang="es";
+
+    localStorage.setItem("drevaiaLang", lang);
+  }
+
+  document.querySelectorAll(".lang").forEach(el=>{
+    el.style.display = el.classList.contains(lang) ? "block" : "none";
+  });
+
+  document.documentElement.lang = lang;
+}
+
+document.addEventListener("DOMContentLoaded", apply404Lang);
+</script>
+
+</body>
+</html>
+

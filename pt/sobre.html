@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Drevaia Digital — Ebooks de cura emocional</title>
+  <meta name="description" content="Drevaia Digital é um refúgio emocional com ebooks para cura interior. Escolha o que ressoa em você hoje." />
+
+  <!-- Canonical + hreflang -->
+  <link rel="canonical" href="https://drevaia.com/pt/" />
+
+  <link rel="alternate" hreflang="x-default" href="https://drevaia.com/" />
+  <link rel="alternate" hreflang="es" href="https://drevaia.com/" />
+  <link rel="alternate" hreflang="en" href="https://drevaia.com/en/" />
+  <link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/" />
+  <link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/" />
+
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Drevaia Digital — Ebooks de cura emocional" />
+  <meta property="og:description" content="Um refúgio emocional com ebooks para cura interior. Escolha o que ressoa em você hoje." />
+  <meta property="og:url" content="https://drevaia.com/pt/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://drevaia.com/og-drevaia.webp" />
+  <meta property="og:locale" content="pt_PT" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Drevaia Digital — Ebooks de cura emocional" />
+  <meta name="twitter:description" content="Um refúgio emocional com ebooks para cura interior." />
+  <meta name="twitter:image" content="https://drevaia.com/og-drevaia.webp" />
+
+  <!-- Premium Style -->
+  <style>
+    body{
+      margin:0;
+      font-family:Georgia,serif;
+      background:#0b0b0d;
+      color:#eee;
+      line-height:1.85;
+      text-align:center;
+      padding:80px 20px;
+    }
+
+    h1{
+      color:#d4b08c;
+      font-size:38px;
+      margin-bottom:26px;
+      font-weight:600;
+      letter-spacing:.4px;
+    }
+
+    p{
+      max-width:760px;
+      margin:0 auto 22px;
+      font-size:18px;
+      color:#ccc;
+    }
+
+    em{
+      color:#d6d6d6;
+    }
+
+    /* Primary Button */
+    a.button{
+      display:inline-block;
+      margin-top:28px;
+      padding:13px 30px;
+      border:1px solid rgba(212,176,140,.75);
+      color:#d4b08c;
+      text-decoration:none;
+      border-radius:12px;
+      font-size:16px;
+      font-weight:600;
+      transition:.25s ease;
+    }
+
+    a.button:hover{
+      background:#d4b08c;
+      color:#000;
+      transform:translateY(-2px);
+    }
+
+    a.button:focus-visible{
+      outline:2px solid #fff;
+      outline-offset:4px;
+    }
+
+    /* FLAGS */
+    .flags{
+      margin-top:55px;
+    }
+
+    .flags a{
+      margin:0 9px;
+      position:relative;
+      display:inline-block;
+    }
+
+    .flags img{
+      width:26px;
+      height:26px;
+      border-radius:50%;
+      opacity:.85;
+      transition:.2s ease;
+    }
+
+    .flags img:hover{
+      opacity:1;
+      transform:translateY(-2px);
+    }
+
+    .flags a.active img{
+      opacity:1;
+      outline:2px solid #d4b08c;
+      outline-offset:3px;
+    }
+
+    /* Tooltip */
+    .flags a::after{
+      content:attr(aria-label);
+      position:absolute;
+      bottom:-34px;
+      left:50%;
+      transform:translateX(-50%);
+      background:#151515;
+      color:#d4b08c;
+      font-size:12px;
+      padding:4px 10px;
+      border-radius:8px;
+      opacity:0;
+      pointer-events:none;
+      transition:.2s;
+      white-space:nowrap;
+    }
+
+    .flags a:hover::after,
+    .flags a:focus-visible::after{
+      opacity:1;
+    }
+
+    /* CONTACT CARD */
+    .contact-card{
+      max-width:900px;
+      margin:90px auto 60px;
+      padding:38px 28px;
+      border-radius:22px;
+      border:1px solid rgba(212,176,140,.25);
+      background:#121216;
+      box-shadow:0 22px 55px rgba(0,0,0,.55);
+    }
+
+    .contact-card h2{
+      color:#d4b08c;
+      font-size:26px;
+      margin-bottom:24px;
+      font-weight:600;
+    }
+
+    .contact-card p{
+      font-size:16px;
+      color:#cfcfcf;
+      margin-bottom:22px;
+      line-height:1.7;
+    }
+
+    /* GRID LINKS */
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+      margin-top:20px;
+    }
+
+    .grid a{
+      padding:15px 16px;
+      border-radius:16px;
+      border:1px solid rgba(212,176,140,.25);
+      text-decoration:none;
+      color:#eee;
+      background:#111;
+      font-weight:600;
+      transition:.25s ease;
+      display:flex;
+      justify-content:center;
+      gap:8px;
+    }
+
+    .grid a:hover{
+      background:rgba(212,176,140,.18);
+      transform:translateY(-2px);
+    }
+
+    .grid a:focus-visible{
+      outline:2px solid #fff;
+      outline-offset:4px;
+    }
+
+    footer{
+      margin-top:90px;
+      font-size:14px;
+      color:#777;
+    }
+
+    footer a{
+      color:#aaa;
+      text-decoration:none;
+    }
+
+    footer a:hover{
+      text-decoration:underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Bem-vindos à Drevaia Digital</h1>
+
+  <p>
+    Drevaia Digital é um refúgio emocional no meio do ruído.
+    Um espaço tranquilo para sentir, curar e voltar a si.
+  </p>
+
+  <p><em>Escolha o que te sustenta hoje.</em></p>
+
+<a class="button" href="/pt/library/">
+    Descobrir a biblioteca em português
+</a>
+
+  <!-- FLAGS -->
+  <div class="flags">
+    <a href="/" aria-label="Español">
+      <img src="/flags/es.webp" alt="Español">
+    </a>
+
+    <a href="/en/" aria-label="English">
+      <img src="/flags/en.webp" alt="English">
+    </a>
+
+    <a href="/fr/" aria-label="Français">
+      <img src="/flags/fr.webp" alt="Français">
+    </a>
+
+    <a href="/pt/" aria-label="Português" class="active">
+      <img src="/flags/pt.webp" alt="Português">
+    </a>
+  </div>
+
+<!-- ✅ CONTACT SLOT -->
+<div id="contact-slot"></div>
+
+<!-- ✅ LOAD CONTACT PARTIAL (ONLY ONCE) -->
+<script src="/partials/include.js" defer></script>
+
+<!-- ✅ INIT CONTACT -->
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  loadContact({
+    intro: "Obrigada por estar aqui. Se quiser continuar caminhando comigo, você me encontra aqui.",
+    title: "Conecte-se comigo",
+
+    library: "https://payhip.com/DrevaiaDigital/collection/portuguese-library",
+    libraryLabel: "Biblioteca Portuguesa (Payhip)",
+
+    about: "https://drevaia.com/pt/sobre.html",
+    aboutLabel: "Sobre a autora"
+  });
+});
+</script>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      <a href="/legal/legal-pt.html">
+        Legal — Privacidade e Reembolsos
+      </a>
+    </p>
+  </footer>
+
+  <!-- Audio -->
+  <audio id="bg-music" preload="metadata">
+    <source src="/campanas.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    document.addEventListener("click", () => {
+      const audio = document.getElementById("bg-music");
+      if (audio && audio.paused) {
+        audio.volume = 0.15;
+        audio.play().catch(() => {});
+      }
+    }, { once: true });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME MULTILINGÜE -->
+  <url>
+    <loc>https://drevaia.com/</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+
+    <xhtml:link rel="alternate" hreflang="es" href="https://drevaia.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://drevaia.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drevaia.com/" />
+  </url>
+
+  <!-- IDIOMAS -->
+  <url>
+    <loc>https://drevaia.com/en/</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/fr/</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/pt/</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- PÁGINAS PRINCIPALES -->
+  <url>
+    <loc>https://drevaia.com/library/</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/mapa-emocional.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- ARTÍCULOS EMOCIONALES -->
+  <url>
+    <loc>https://drevaia.com/por-que-me-siento-solo.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/por-que-me-siento-vacio.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/por-que-me-siento-perdido.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/por-que-me-siento-triste-sin-motivo.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/por-que-me-cuesta-decir-no.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/por-que-me-siento-cansado-de-todo.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/como-superar-el-miedo.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/como-encontrar-mi-camino.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/como-sanar-heridas-emocionales.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+<url>
+  <loc>https://drevaia.com/por-que-me-siento-mal-sin-razon.html</loc>
+  <lastmod>2026-03-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+  <!-- PÁGINAS LEGALES -->
+  <url>
+    <loc>https://drevaia.com/legal/</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.40</priority>
+  </url>
+
+</urlset>

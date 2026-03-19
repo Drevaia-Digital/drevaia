@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- BLOG INDEXES -->
+
+  <url>
+    <loc>https://drevaia.com/blog/es/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/en/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/fr/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/pt/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- ENGLISH -->
+
+<url>
+  <loc>https://drevaia.com/blog/en/emotional-wounds-invisible-map.html</loc>
+
+  <xhtml:link rel="alternate" hreflang="es"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <xhtml:link rel="alternate" hreflang="en"
+  href="https://drevaia.com/blog/en/emotional-wounds-invisible-map.html"/>
+
+  <xhtml:link rel="alternate" hreflang="fr"
+  href="https://drevaia.com/blog/fr/carte-invisible-des-blessures-emotionnelles.html"/>
+
+  <xhtml:link rel="alternate" hreflang="pt"
+  href="https://drevaia.com/blog/pt/mapa-invisivel-das-feridas-emocionais.html"/>
+
+  <xhtml:link rel="alternate" hreflang="x-default"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+  <url>
+    <loc>https://drevaia.com/blog/en/when-fear-locked-you-in.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/en/how-to-say-no-without-guilt.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/en/boundaries-are-not-rejection.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/en/brainrot-silence.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- SPANISH -->
+
+ <url>
+  <loc>https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html</loc>
+
+  <xhtml:link rel="alternate" hreflang="es"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <xhtml:link rel="alternate" hreflang="en"
+  href="https://drevaia.com/blog/en/emotional-wounds-invisible-map.html"/>
+
+  <xhtml:link rel="alternate" hreflang="fr"
+  href="https://drevaia.com/blog/fr/carte-invisible-des-blessures-emotionnelles.html"/>
+
+  <xhtml:link rel="alternate" hreflang="pt"
+  href="https://drevaia.com/blog/pt/mapa-invisivel-das-feridas-emocionais.html"/>
+
+  <xhtml:link rel="alternate" hreflang="x-default"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+  <url>
+    <loc>https://drevaia.com/blog/es/cuando-el-miedo-te-encerro.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/es/como-decir-no-sin-culpa.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/es/poner-limites-no-es-rechazar.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/es/silencio-mental-brainrot.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- FRENCH -->
+
+<url>
+  <loc>https://drevaia.com/blog/fr/carte-invisible-des-blessures-emotionnelles.html</loc>
+
+  <xhtml:link rel="alternate" hreflang="es"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <xhtml:link rel="alternate" hreflang="en"
+  href="https://drevaia.com/blog/en/emotional-wounds-invisible-map.html"/>
+
+  <xhtml:link rel="alternate" hreflang="fr"
+  href="https://drevaia.com/blog/fr/carte-invisible-des-blessures-emotionnelles.html"/>
+
+  <xhtml:link rel="alternate" hreflang="pt"
+  href="https://drevaia.com/blog/pt/mapa-invisivel-das-feridas-emocionais.html"/>
+
+  <xhtml:link rel="alternate" hreflang="x-default"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+  <url>
+    <loc>https://drevaia.com/blog/fr/quand-la-peur-ta-enferme.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/fr/comment-dire-non-sans-culpabilite.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/fr/les-limites-ne-sont-pas-un-rejet.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/fr/silence-mental-brainrot.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- PORTUGUESE -->
+
+<url>
+  <loc>https://drevaia.com/blog/pt/mapa-invisivel-das-feridas-emocionais.html</loc>
+
+  <xhtml:link rel="alternate" hreflang="es"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <xhtml:link rel="alternate" hreflang="en"
+  href="https://drevaia.com/blog/en/emotional-wounds-invisible-map.html"/>
+
+  <xhtml:link rel="alternate" hreflang="fr"
+  href="https://drevaia.com/blog/fr/carte-invisible-des-blessures-emotionnelles.html"/>
+
+  <xhtml:link rel="alternate" hreflang="pt"
+  href="https://drevaia.com/blog/pt/mapa-invisivel-das-feridas-emocionais.html"/>
+
+  <xhtml:link rel="alternate" hreflang="x-default"
+  href="https://drevaia.com/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"/>
+
+  <lastmod>2026-02-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+  <url>
+    <loc>https://drevaia.com/blog/pt/quando-o-medo-te-prendeu.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/pt/como-dizer-nao-sem-culpa.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/pt/limites-nao-sao-rejeicao.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://drevaia.com/blog/pt/brainrot-silencioso.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>

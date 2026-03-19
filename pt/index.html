@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Drevaia Digital — Ebooks de cura emocional</title>
+<meta name="description" content="Drevaia Digital é um refúgio emocional com ebooks para cura interior. Escolha o que ressoa em você hoje.">
+
+<!-- SEO -->
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://drevaia.com/pt/">
+
+<!-- hreflang -->
+<link rel="alternate" hreflang="x-default" href="https://drevaia.com/">
+<link rel="alternate" hreflang="es" href="https://drevaia.com/">
+<link rel="alternate" hreflang="en" href="https://drevaia.com/en/">
+<link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/">
+<link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Drevaia Digital — Ebooks de cura emocional">
+<meta property="og:description" content="Um refúgio emocional com ebooks para cura interior.">
+<meta property="og:url" content="https://drevaia.com/pt/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://drevaia.com/og-drevaia.webp">
+<meta property="og:locale" content="pt_BR">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Drevaia Digital — Ebooks de cura emocional">
+<meta name="twitter:description" content="Um refúgio emocional com ebooks para cura interior.">
+<meta name="twitter:image" content="https://drevaia.com/og-drevaia.webp">
+
+<link rel="stylesheet" href="/partials/contact.css">
+
+<style>
+body{
+  margin:0;
+  font-family:Georgia, serif;
+  background:#0b0b0d;
+  color:#eee;
+  line-height:1.85;
+  text-align:center;
+  padding:70px 20px;
+}
+
+h1{
+  color:#d4b08c;
+  font-size:36px;
+  margin-bottom:22px;
+  font-weight:600;
+  letter-spacing:0.3px;
+}
+
+p{
+  max-width:760px;
+  margin:0 auto 22px;
+  font-size:18px;
+  color:#ccc;
+}
+
+em{
+  color:#d6d6d6;
+}
+
+.cta-group{
+  margin-top:40px;
+}
+
+.cta-transition{
+  margin:32px 0 18px;
+  font-size:15px;
+  opacity:0.65;
+}
+
+a.button{
+  display:inline-block;
+  padding:14px 32px;
+  border:1px solid rgba(212,176,140,0.7);
+  color:#d4b08c;
+  text-decoration:none;
+  border-radius:999px;
+  font-size:16px;
+  font-weight:600;
+  transition:0.25s ease;
+  background:rgba(255,255,255,0.03);
+}
+
+a.button:hover{
+  background:#d4b08c;
+  color:#000;
+  transform:translateY(-2px);
+}
+
+a.button:focus-visible{
+  outline:2px solid #fff;
+  outline-offset:4px;
+}
+
+/* FLAGS */
+.flags{
+  margin-top:55px;
+}
+
+.flags a{
+  margin:0 9px;
+  position:relative;
+  display:inline-block;
+}
+
+.flags img{
+  width:26px;
+  height:26px;
+  border-radius:50%;
+  opacity:0.85;
+  transition:0.2s ease;
+}
+
+.flags img:hover{
+  opacity:1;
+  transform:translateY(-2px);
+}
+
+.flags a.active img{
+  opacity:1;
+  outline:2px solid #d4b08c;
+  outline-offset:3px;
+}
+
+footer{
+  margin-top:80px;
+  font-size:14px;
+  color:#777;
+}
+
+footer a{
+  color:#aaa;
+  text-decoration:none;
+}
+
+footer a:hover{
+  text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Bem-vindo à Drevaia Digital</h1>
+
+<p>
+Drevaia Digital é um refúgio emocional em meio ao ruído.
+Um espaço tranquilo para sentir, curar e voltar a si.
+</p>
+
+<p><em>Escolha o que te sustenta hoje.</em></p>
+
+<!-- CTA GROUP -->
+<div class="cta-group">
+
+  <!-- Biblioteca -->
+  <a class="button"
+     href="https://payhip.com/DrevaiaDigital/collection/portuguese-library"
+     target="_blank"
+     rel="noopener noreferrer">
+     Descobrir a biblioteca em português
+  </a>
+
+  <!-- Transição -->
+  <p class="cta-transition">
+    Ou comece com a leitura do dia.
+  </p>
+
+  <!-- Leitura do dia -->
+  <a class="button"
+     href="/pt/library/viver-no-automatico">
+     Abrir leitura do dia
+  </a>
+
+</div>
+
+<!-- FLAGS -->
+<div class="flags">
+  <a href="/"><img src="/flags/es.webp" alt="Español"></a>
+  <a href="/en/"><img src="/flags/en.webp" alt="English"></a>
+  <a href="/fr/"><img src="/flags/fr.webp" alt="Français"></a>
+  <a href="/pt/" class="active"><img src="/flags/pt.webp" alt="Português"></a>
+</div>
+
+<div id="contact-slot"></div>
+
+<footer>
+  <p>
+    <a href="/legal/legal-pt.html">
+      Legal — Privacidade e Reembolsos
+    </a>
+  </p>
+</footer>
+
+<audio id="bg-music" preload="metadata">
+  <source src="/campanas.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function initAudio(){
+  const audio=document.getElementById("bg-music");
+  if(audio && audio.paused){
+    audio.volume=0.15;
+    audio.play().catch(()=>{});
+  }
+  document.removeEventListener("click", initAudio);
+});
+</script>
+
+<script src="/partials/include.js" defer></script>
+<script>
+window.addEventListener("DOMContentLoaded", ()=>{
+  if(typeof loadContactAuto==="function"){
+    loadContactAuto();
+  }
+});
+</script>
+
+</body>
+</html>
+

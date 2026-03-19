@@ -1,0 +1,346 @@
+[
+{
+"type":"blog",
+"title":"El mapa invisible de las heridas emocionales",
+"url":"/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html",
+"lang":"es",
+"keywords":"heridas emocionales trauma infancia abandono patrones inconscientes mapa invisible relaciones repetidas repetir relaciones dolor emocional"
+},
+{
+"type":"blog",
+"title":"Emotional Wounds — The Invisible Map",
+"url":"/blog/en/emotional-wounds-invisible-map.html",
+"lang":"en",
+"keywords":"emotional trauma childhood wounds subconscious patterns abandonment toxic relationships repeating relationships emotional pain attachment wounds"
+},
+{
+"type":"blog",
+"title":"La carte invisible des blessures émotionnelles",
+"url":"/blog/fr/carte-invisible-des-blessures-emotionnelles.html",
+"lang":"fr",
+"keywords":"blessures émotionnelles trauma enfance abandon schémas inconscients relations toxiques repetition relations douleur emotionnelle attachement"
+},
+{
+"type":"blog",
+"title":"O mapa invisível das feridas emocionais",
+"url":"/blog/pt/mapa-invisivel-das-feridas-emocionais.html",
+"lang":"pt",
+"keywords":"feridas emocionais trauma infancia abandono padroes inconscientes relacoes repetidas dor emocional apego"
+},
+
+{
+"type":"blog",
+"title":"Cómo decir NO sin culpa",
+"url":"/blog/es/como-decir-no-sin-culpa.html",
+"lang":"es",
+"keywords":"decir no culpa limites autoestima relaciones sanas poner limites miedo rechazo dependencia emocional"
+},
+{
+"type":"blog",
+"title":"How to Say No Without Guilt",
+"url":"/blog/en/how-to-say-no-without-guilt.html",
+"lang":"en",
+"keywords":"say no guilt boundaries self esteem healthy relationships fear rejection emotional dependency"
+},
+{
+"type":"blog",
+"title":"Comment dire NON sans culpabilité",
+"url":"/blog/fr/comment-dire-non-sans-culpabilite.html",
+"lang":"fr",
+"keywords":"dire non culpabilite limites estime de soi relations saines peur rejet dependance emotionnelle"
+},
+{
+"type":"blog",
+"title":"Como dizer NÃO sem culpa",
+"url":"/blog/pt/como-dizer-nao-sem-culpa.html",
+"lang":"pt",
+"keywords":"dizer nao culpa limites autoestima relacionamentos saudaveis medo rejeicao dependencia emocional"
+},
+
+{
+"type":"blog",
+"title":"Cuando el miedo te encerró",
+"url":"/blog/es/cuando-el-miedo-te-encerro.html",
+"lang":"es",
+"keywords":"miedo ansiedad bloqueo emocional encierro supervivencia trauma valentia sanar miedo"
+},
+{
+"type":"blog",
+"title":"When Fear Locked You In",
+"url":"/blog/en/when-fear-locked-you-in.html",
+"lang":"en",
+"keywords":"fear anxiety emotional block survival trauma courage healing fear"
+},
+{
+"type":"blog",
+"title":"Quand la peur t’a enfermé",
+"url":"/blog/fr/quand-la-peur-ta-enferme.html",
+"lang":"fr",
+"keywords":"peur anxiete blocage emotionnel enfermement survie trauma courage guerison"
+},
+{
+"type":"blog",
+"title":"Quando o medo te prendeu",
+"url":"/blog/pt/quando-o-medo-te-prendeu.html",
+"lang":"pt",
+"keywords":"medo ansiedade bloqueio emocional prisao sobrevivencia trauma coragem cura"
+},
+
+{
+"type":"emocion",
+"title":"¿Por qué me siento vacío?",
+"url":"/por-que-me-siento-vacio.html",
+"lang":"es",
+"emotion":"vacio",
+
+"keywords":[
+"vacío interior",
+"sentir vacío",
+"vacío emocional",
+"vacío por dentro",
+"sentir que algo falta"
+],
+
+"phrases":[
+"por que me siento vacio",
+"siento un vacio por dentro",
+"mi vida se siente vacia",
+"tengo un vacio interior"
+]
+},
+{
+"type":"emocion",
+"title":"Why do I feel empty?",
+"url":"/en/why-do-i-feel-empty.html",
+"lang":"en",
+"keywords":"feel empty inside emotional emptiness hollow feeling why do i feel empty"
+},
+{
+"type":"emocion",
+"title":"Pourquoi je me sens vide ?",
+"url":"/fr/pourquoi-je-me-sens-vide.html",
+"lang":"fr",
+"keywords":"vide interieur se sentir vide sensation de vide pourquoi je me sens vide"
+},
+{
+"type":"emocion",
+"title":"Por que me sinto vazio?",
+"url":"/pt/por-que-me-sinto-vazio.html",
+"lang":"pt",
+"keywords":"vazio interior sentir vazio vazio emocional por que me sinto vazio"
+},
+
+{
+"type":"emocion",
+"title":"¿Por qué me siento perdido?",
+"url":"/por-que-me-siento-perdido.html",
+"lang":"es",
+"keywords":"sentirse perdido en la vida sin rumbo no saber que hacer crisis existencial direccion en la vida"
+},
+{
+"type":"emocion",
+"title":"Why do I feel lost?",
+"url":"/en/why-do-i-feel-lost.html",
+"lang":"en",
+"keywords":"feel lost in life no direction existential confusion why do i feel lost"
+},
+{
+"type":"emocion",
+"title":"Pourquoi je me sens perdu ?",
+"url":"/fr/pourquoi-je-me-sens-perdu.html",
+"lang":"fr",
+"keywords":"se sentir perdu dans la vie manque de direction pourquoi je me sens perdu"
+},
+{
+"type":"emocion",
+"title":"Por que me sinto perdido?",
+"url":"/pt/por-que-me-sinto-perdido.html",
+"lang":"pt",
+"keywords":"sentir perdido na vida falta de direcao por que me sinto perdido"
+},
+
+{
+"type":"emocion",
+"title":"¿Por qué me siento triste sin motivo?",
+"url":"/por-que-me-siento-triste-sin-motivo.html",
+"lang":"es",
+"keywords":"triste sin motivo tristeza inexplicable tristeza sin razon sentir tristeza emocional"
+},
+{
+"type":"emocion",
+"title":"Why do I feel sad for no reason?",
+"url":"/en/why-do-i-feel-sad-for-no-reason.html",
+"lang":"en",
+"keywords":"sad for no reason unexplained sadness emotional sadness"
+},
+{
+"type":"emocion",
+"title":"Pourquoi je me sens triste sans raison ?",
+"url":"/fr/pourquoi-je-me-sens-triste-sans-raison.html",
+"lang":"fr",
+"keywords":"tristesse sans raison tristesse inexpliquée pourquoi je me sens triste"
+},
+{
+"type":"emocion",
+"title":"Por que me sinto triste sem motivo?",
+"url":"/pt/por-que-me-sinto-triste-sem-motivo.html",
+"lang":"pt",
+"keywords":"triste sem motivo tristeza inexplicavel por que me sinto triste"
+},
+
+{
+"type":"emocion",
+"title":"¿Por qué me siento mal sin razón?",
+"url":"/por-que-me-siento-mal-sin-razon.html",
+"lang":"es",
+"keywords":"sentirse mal sin razon malestar emocional sentirse raro emocionalmente"
+},
+{
+"type":"emocion",
+"title":"Why do I feel bad for no reason?",
+"url":"/en/why-do-i-feel-bad-for-no-reason.html",
+"lang":"en",
+"keywords":"feel bad for no reason emotional discomfort unexplained sadness"
+},
+{
+"type":"emocion",
+"title":"Pourquoi je me sens mal sans raison ?",
+"url":"/fr/pourquoi-je-me-sens-mal-sans-raison.html",
+"lang":"fr",
+"keywords":"se sentir mal sans raison malaise emotionnel"
+},
+{
+"type":"emocion",
+"title":"Por que me sinto mal sem motivo?",
+"url":"/pt/por-que-me-sinto-mal-sem-motivo.html",
+"lang":"pt",
+"keywords":"sentir mal sem motivo mal estar emocional"
+},
+
+{
+"type":"emocion",
+"title":"Siento que mi vida no tiene sentido",
+"url":"/siento-que-mi-vida-no-tiene-sentido.html",
+"lang":"es",
+"keywords":"vida sin sentido no encuentro sentido a mi vida crisis existencial proposito de vida"
+},
+{
+"type":"emocion",
+"title":"I feel like my life has no meaning",
+"url":"/en/i-feel-like-my-life-has-no-meaning.html",
+"lang":"en",
+"keywords":"life has no meaning existential crisis meaning of life purpose"
+},
+{
+"type":"emocion",
+"title":"Je sens que ma vie n’a pas de sens",
+"url":"/fr/ma-vie-na-pas-de-sens.html",
+"lang":"fr",
+"keywords":"ma vie n a pas de sens crise existentielle sens de la vie"
+},
+{
+"type":"emocion",
+"title":"Sinto que minha vida não tem sentido",
+"url":"/pt/minha-vida-nao-tem-sentido.html",
+"lang":"pt",
+"keywords":"vida sem sentido crise existencial sentido da vida"
+},
+{
+"type":"ebook",
+"title":"Susurros",
+"url":"https://payhip.com/b/9cjAv",
+"lang":"es",
+"keywords":"susurros sanacion emocional calma silencio refugio palabras suaves"
+},
+{
+"type":"ebook",
+"title":"Espejos",
+"url":"https://payhip.com/b/cFJTb",
+"lang":"es",
+"keywords":"espejos autoconocimiento patrones conciencia introspeccion sanacion personal"
+},
+{
+"type":"ebook",
+"title":"Abrazos",
+"url":"https://payhip.com/b/eJASi",
+"lang":"es",
+"keywords":"abrazos contencion descanso emocional cuidado amor refugio"
+},
+{
+"type":"ebook",
+"title":"3 pasos para volver a ti",
+"url":"https://payhip.com/b/Bzn24",
+"lang":"es",
+"keywords":"volver a ti reconexion interior calma sanar emocional ebook gratis"
+},
+{
+"type":"ebook",
+"title":"Cómo decir No sin culpa",
+"url":"https://payhip.com/b/2g89T",
+"lang":"es",
+"keywords":"decir no limites culpa autoestima relaciones sanas"
+},
+{
+"type":"ebook",
+"title":"Las cosas que el tiempo no pudo borrar",
+"url":"https://payhip.com/b/dZ6Tw",
+"lang":"es",
+"keywords":"recuerdos heridas pasado duelo sanar memoria emocional"
+},
+{
+"type":"ebook",
+"title":"Más allá de la pantalla",
+"url":"https://payhip.com/b/tAk0Q",
+"lang":"es",
+"keywords":"atencion digital presencia mente tecnologia desconexion"
+},
+{
+"type":"ebook",
+"title":"Cuando el miedo te encerró",
+"url":"https://go.hotmart.com/Y100794816D",
+"lang":"es",
+"keywords":"miedo ansiedad bloqueo emocional supervivencia valentia sanar miedo"
+},
+{
+"type":"ebook",
+"title":"El libro que roba el brainrot",
+"url":"https://payhip.com/b/jSzU4",
+"lang":"es",
+"keywords":"brainrot dopamina redes sociales exceso digital mente saturada"
+},
+{
+"type":"ebook",
+"title":"Sabía a dónde quería llegar",
+"url":"https://payhip.com/b/p6hq2",
+"lang":"es",
+"keywords":"proposito direccion vision claridad avanzar camino"
+},
+{
+"type":"ebook",
+"title":"Fracaso o no… Sigue tu camino",
+"url":"https://payhip.com/b/Nx0cF",
+"lang":"es",
+"keywords":"fracaso resiliencia aprendizaje avanzar superacion"
+},
+{
+"type":"ebook",
+"title":"Cuidar tu mente no es un lujo",
+"url":"https://payhip.com/b/Sb1Ea",
+"lang":"es",
+"keywords":"salud mental autocuidado bienestar emocional ansiedad equilibrio"
+},
+{
+"type":"ebook",
+"title":"Mi amigo fiel",
+"url":"https://payhip.com/b/GsHUK",
+"lang":"es",
+"keywords":"amor incondicional compania lealtad vinculo emocional"
+},
+{
+"type":"ebook",
+"title":"Palabras clave inteligentes",
+"url":"https://payhip.com/b/n9MHe",
+"lang":"es",
+"keywords":"seo palabras clave visibilidad comunicacion digital marca personal"
+}
+]

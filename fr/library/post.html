@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Drevaia Digital — Bibliothèque émotionnelle</title>
+<meta name="description" content="Une bibliothèque émotionnelle de livres pour guérir, comprendre et se reconnecter à soi. Choisis selon ce que tu ressens aujourd’hui.">
+
+<link rel="canonical" href="https://drevaia.com/fr/library/post.html">
+
+<link rel="stylesheet" href="/css/drevaia.css">
+
+<style>
+.search-wrap{
+  max-width:640px;
+  margin:0 auto 60px;
+}
+
+.search-input{
+  width:100%;
+  padding:14px 22px;
+  border-radius:999px;
+  border:1px solid rgba(212,176,140,0.45);
+  background:rgba(255,255,255,0.04);
+  color:#eee;
+  font-size:16px;
+}
+
+.search-input::placeholder{
+  color:rgba(255,255,255,0.45);
+}
+
+.books{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:26px;
+}
+
+.book{
+  background:#121216;
+  padding:26px;
+  border-radius:16px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<h1>Bibliothèque française</h1>
+
+<p class="intro">
+Cette bibliothèque n’est pas organisée par importance.<br>
+Choisis selon ce que tu ressens aujourd’hui.
+</p>
+
+<!-- 🔍 RECHERCHE -->
+<div class="search-wrap">
+  <input
+    id="ebookSearchInput"
+    class="search-input"
+    type="text"
+    placeholder="Rechercher par émotion, thème ou mot…">
+</div>
+
+<!-- 📚 LIVRES -->
+<div class="books">
+
+  <!-- CHUCHOTEMENTS -->
+  <div class="book"
+    data-search="chuchotements silence guérison émotionnelle calme refuge intérieur">
+
+    <h3>Chuchotements</h3>
+
+    <p>
+      Pour les jours où tout fait du bruit à l’intérieur.<br>
+      <strong>Ce livre s’assoit avec toi en silence.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/9cjAv" target="_blank" rel="noopener">
+      Voir dans la boutique
+    </a>
+  </div>
+
+  <!-- MIROIRS -->
+  <div class="book"
+    data-search="miroirs réflexion schémas conscience guérison vérité intérieure">
+
+    <h3>Miroirs</h3>
+
+    <p>
+      Pour regarder ce que tu as évité sans te punir.<br>
+      <strong>Il révèle des schémas pour te permettre de choisir autrement.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/cFJTb" target="_blank" rel="noopener">
+      Voir dans la boutique
+    </a>
+  </div>
+
+  <!-- ÉTREINTES -->
+  <div class="book"
+    data-search="étreintes réconfort repos soutien émotionnel douceur">
+
+    <h3>Étreintes</h3>
+
+    <p>
+      Quand être fort devient épuisant.<br>
+      <strong>Ici, tu n’as rien à expliquer.</strong>
+    </p>
+
+    <a href="https://payhip.com/b/eJASi" target="_blank" rel="noopener">
+      Voir dans la boutique
+    </a>
+  </div>
+
+</div>
+
+</div>
+
+<!-- 🔎 SCRIPT DE RECHERCHE -->
+<script>
+const searchInput = document.getElementById("ebookSearchInput");
+const books = document.querySelectorAll(".book");
+
+if (searchInput) {
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase().trim();
+
+    books.forEach(book => {
+      const text = book.dataset.search || "";
+      book.style.display =
+        query === "" || text.includes(query)
+          ? "block"
+          : "none";
+    });
+  });
+
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const firstMatch = document.querySelector(
+        ".book:not([style*='display: none'])"
+      );
+      if (firstMatch) {
+        firstMatch.scrollIntoView({ behavior: "auto", block: "start" });
+      }
+    }
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Drevaia Digital — Livres de guérison émotionnelle</title>
+  <meta name="description" content="Drevaia Digital est un refuge calme de livres émotionnels. Choisis ce qui résonne en toi aujourd’hui." />
+
+  <!-- SEO -->
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://drevaia.com/fr/" />
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="x-default" href="https://drevaia.com/" />
+  <link rel="alternate" hreflang="es" href="https://drevaia.com/" />
+  <link rel="alternate" hreflang="en" href="https://drevaia.com/en/" />
+  <link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/" />
+  <link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Drevaia Digital" />
+  <meta property="og:title" content="Drevaia Digital — Livres de guérison émotionnelle" />
+  <meta property="og:description" content="Un refuge calme de livres émotionnels." />
+  <meta property="og:url" content="https://drevaia.com/fr/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://drevaia.com/og-drevaia.webp" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Contact Style -->
+  <link rel="stylesheet" href="/partials/contact.css" />
+
+  <style>
+    body{
+      margin:0;
+      font-family: Georgia, serif;
+      background:#0b0b0d;
+      color:#eee;
+      line-height:1.85;
+      text-align:center;
+      padding:80px 20px 60px;
+    }
+
+    h1{
+      color:#d4b08c;
+      font-size:38px;
+      margin-bottom:22px;
+      font-weight:600;
+    }
+
+    p{
+      max-width:760px;
+      margin:0 auto 22px;
+      font-size:18px;
+      color:#ccc;
+    }
+
+    em{
+      color:rgba(255,255,255,0.8);
+    }
+
+    .button{
+      display:inline-block;
+      margin-top:30px;
+      padding:14px 34px;
+      border-radius:999px;
+      border:1px solid rgba(212,176,140,0.65);
+      color:#d4b08c;
+      text-decoration:none;
+      font-weight:600;
+      transition:0.25s ease;
+      background:rgba(255,255,255,0.03);
+    }
+
+    .button:hover{
+      background:#d4b08c;
+      color:#000;
+      transform:translateY(-2px);
+    }
+
+    .flags{
+      margin-top:60px;
+    }
+
+    .flags a{
+      margin:0 10px;
+      display:inline-block;
+    }
+
+    .flags img{
+      width:28px;
+      height:28px;
+      border-radius:50%;
+      opacity:.85;
+      transition:.2s ease;
+    }
+
+    .flags img:hover{
+      opacity:1;
+      transform:translateY(-2px);
+    }
+
+    .flags a.active img{
+      opacity:1;
+      outline:2px solid #d4b08c;
+      outline-offset:4px;
+    }
+
+    footer{
+      margin-top:90px;
+      font-size:14px;
+      color:#777;
+    }
+
+    footer a{
+      color:#d4b08c;
+      text-decoration:none;
+    }
+
+    footer a:hover{
+      text-decoration:underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Bienvenue dans Drevaia Digital</h1>
+
+  <p>
+    Drevaia Digital est un refuge émotionnel au milieu du bruit.
+    Un espace calme pour ressentir, guérir et revenir à toi.
+  </p>
+
+  <p><em>Choisis ce qui te soutient aujourd’hui.</em></p>
+
+  <!-- BOTÓN CORRECTO -->
+<a class="button"
+   href="https://payhip.com/DrevaiaDigital/collection/french-library"
+   target="_blank"
+   rel="noopener noreferrer">
+   Découvrir la bibliothèque française
+</a>
+
+  <!-- FLAGS -->
+  <nav class="flags" aria-label="Languages">
+    <a href="/"><img src="/flags/es.webp" alt="Español"></a>
+    <a href="/en/"><img src="/flags/en.webp" alt="English"></a>
+    <a href="/fr/" class="active"><img src="/flags/fr.webp" alt="Français"></a>
+    <a href="/pt/"><img src="/flags/pt.webp" alt="Português"></a>
+  </nav>
+
+  <!-- CONTACT -->
+  <div id="contact-slot"></div>
+
+  <!-- AUDIO ACTIVADO CON SCROLL (NO CLICK) -->
+  <audio id="bg-music" preload="metadata">
+    <source src="/campanas.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+window.addEventListener("scroll", () => {
+  const audio = document.getElementById("bg-music");
+  if (audio && audio.paused) {
+    audio.volume = 0.15;
+    audio.play().catch(() => {});
+  }
+}, { once: true });
+</script>
+
+
+  <!-- LOAD CONTACT -->
+  <script src="/partials/include.js" defer></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      if (typeof loadContactAuto === "function") {
+        loadContactAuto();
+      }
+    });
+  </script>
+
+</body>
+</html>
+
+

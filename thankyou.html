@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Gracias — Drevaia Digital</title>
+
+  <meta name="description" content="Gracias por confiar en Drevaia Digital. Tu ebook llegará pronto. Este es un cierre con calma, presencia y cuidado." />
+  <meta name="author" content="Drevaia Digital" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://drevaia.com/thankyou.html" />
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="es" href="https://drevaia.com/gracias" />
+  <link rel="alternate" hreflang="en" href="https://drevaia.com/en/thanks" />
+  <link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/merci" />
+  <link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/obrigado" />
+  <link rel="alternate" hreflang="x-default" href="https://drevaia.com/gracias" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Drevaia Digital" />
+  <meta property="og:title" content="Gracias — Drevaia Digital" />
+  <meta property="og:description" content="Tu ebook llegará pronto. Un cierre con calma, presencia y cuidado." />
+  <meta property="og:url" content="https://drevaia.com/gracias" />
+  <meta property="og:image" content="https://drevaia.com/og-drevaia.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Drevaia Digital — Página de agradecimiento" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gracias — Drevaia Digital" />
+  <meta name="twitter:description" content="Tu ebook llegará pronto. Un cierre con calma, presencia y cuidado." />
+  <meta name="twitter:image" content="https://drevaia.com/og-drevaia.webp" />
+  <meta name="twitter:image:alt" content="Drevaia Digital — Página de agradecimiento" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg-a:#06121a;
+      --bg-b:#00222e;
+      --bg-c:#3b0b3b;
+
+      --cyan:#00f0ff;
+      --magenta:#ff3fb1;
+      --gold:#d4b08c;
+      --cream:#f8f5f0;
+
+      --radius:18px;
+      --shadow:0 14px 50px rgba(0,0,0,.6);
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+
+    body{
+      font-family:'Cormorant Garamond',serif;
+      color:var(--cream);
+
+      background:
+        radial-gradient(1100px 520px at 15% 20%, rgba(0,240,255,.07), transparent 12%),
+        radial-gradient(900px 520px at 85% 80%, rgba(255,63,177,.07), transparent 14%),
+        linear-gradient(180deg,var(--bg-a) 0%,var(--bg-b) 45%,var(--bg-c) 100%);
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:26px;
+      text-align:center;
+    }
+
+    /* Flags */
+    .flag-container{
+      position:absolute;
+      top:18px;
+      right:18px;
+      display:flex;
+      gap:10px;
+    }
+
+    .flag-btn{
+      background:none;
+      border:1px solid rgba(255,255,255,.15);
+      border-radius:8px;
+      padding:3px;
+      cursor:pointer;
+      transition:transform .2s ease, border .2s ease;
+    }
+
+    .flag-btn:hover{
+      transform:translateY(-2px);
+      border-color:rgba(212,176,140,.55);
+    }
+
+    .flag-btn:focus-visible{
+      outline:2px solid var(--cyan);
+      outline-offset:3px;
+    }
+
+    .flag-btn img{
+      width:26px;
+      height:18px;
+      border-radius:4px;
+      display:block;
+    }
+
+    /* Card */
+    .wrap{width:100%;max-width:680px}
+
+    .card{
+      background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.01));
+      border-radius:var(--radius);
+      padding:38px 28px;
+      border:1px solid rgba(212,176,140,.10);
+      box-shadow:var(--shadow);
+
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:18px;
+    }
+
+    .logo{
+      width:92px;
+      filter:drop-shadow(0 0 12px rgba(212,176,140,.45));
+    }
+
+    h1{
+      font-size:30px;
+      font-weight:600;
+      background:linear-gradient(90deg,#ffd580,#ff00c8,#00e6ff);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      background-size:200% auto;
+      animation:shine 6s linear infinite alternate;
+    }
+
+    @keyframes shine{
+      from{background-position:0%}
+      to{background-position:100%}
+    }
+
+    p{
+      font-size:17px;
+      line-height:1.65;
+      color:rgba(255,255,255,.92);
+    }
+
+    .note{
+      font-size:15px;
+      line-height:1.7;
+      color:var(--gold);
+    }
+
+    .note a{
+      color:var(--cyan);
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    .note a:hover{
+      color:var(--magenta);
+    }
+
+    .signature{
+      margin-top:6px;
+      font-style:italic;
+      font-size:17px;
+      color:var(--gold);
+    }
+
+    .actions{
+      margin-top:16px;
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .btn{
+      padding:11px 26px;
+      border-radius:30px;
+      font-family:'Montserrat',sans-serif;
+      font-size:14px;
+      font-weight:600;
+      text-decoration:none;
+
+      background:linear-gradient(90deg,var(--cyan),var(--magenta));
+      background-size:200% 100%;
+      color:#051017;
+
+      box-shadow:0 8px 24px rgba(255,120,200,.22);
+      transition:.3s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px);
+      background-position:100% 0;
+    }
+
+    @media(max-width:600px){
+      h1{font-size:24px}
+      p{font-size:15px}
+      .card{padding:30px 20px}
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Flags -->
+  <div class="flag-container" role="navigation" aria-label="Selección de idioma">
+    <button class="flag-btn" onclick="setLang('es')" aria-label="Español">
+      <img src="/flags/es.webp" alt="ES">
+    </button>
+    <button class="flag-btn" onclick="setLang('en')" aria-label="English">
+      <img src="/flags/en.webp" alt="EN">
+    </button>
+    <button class="flag-btn" onclick="setLang('fr')" aria-label="Français">
+      <img src="/flags/fr.webp" alt="FR">
+    </button>
+    <button class="flag-btn" onclick="setLang('pt')" aria-label="Português">
+      <img src="/flags/pt.webp" alt="PT">
+    </button>
+  </div>
+
+  <!-- Card -->
+  <main class="wrap">
+    <article class="card" aria-label="Mensaje de agradecimiento">
+
+      <img src="/logo.webp" alt="Drevaia Digital" class="logo">
+
+      <h1 id="title">✨ Gracias por tu confianza</h1>
+
+      <p id="message">
+        Tu compra fue recibida con cuidado.<br>
+        Muy pronto tu ebook llegará a tu correo.
+      </p>
+
+      <div class="note">
+        <p id="question">Si tienes dudas o quieres compartir tu experiencia:</p>
+        <a href="https://instagram.com/drevaia.digital" target="_blank" rel="noopener">
+          @drevaia.digital
+        </a>
+
+        <br><br>
+
+        <p id="emailText">También puedes escribirme aquí:</p>
+        <a href="mailto:noa@drevaia.com">noa@drevaia.com</a>
+      </div>
+
+      <div class="signature" id="signature">
+        Con calma y presencia,<br>DREVAIA DIGITAL
+      </div>
+
+      <nav class="actions" aria-label="Acciones">
+        <a href="/" class="btn" id="homeBtn">Ir a la biblioteca</a>
+        <a href="https://payhip.com/DrevaiaDigital" target="_blank" rel="noopener" class="btn" id="libraryBtn">
+          Ir a la tienda
+        </a>
+      </nav>
+
+    </article>
+  </main>
+
+  <!-- Script Idiomas -->
+  <script><link rel="alternate" hreflang="en" href="https://drevaia.com/en/thanks" />
+<link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/merci" />
+<link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/obrigado" />
+
+    const t={
+      es:{title:"✨ Gracias por tu confianza",msg:"Tu compra fue recibida con cuidado.<br>Muy pronto tu ebook llegará a tu correo.",q:"Si tienes dudas o quieres compartir tu experiencia:",e:"También puedes escribirme aquí:",s:"Con calma y presencia,<br>DREVAIA DIGITAL",h:"Ir a la biblioteca",l:"Ir a la tienda"},
+      en:{title:"✨ Thank you for your trust",msg:"Your purchase was received with care.<br>Your ebook will arrive in your email soon.",q:"If you have questions or want to share your experience:",e:"You can also write to me here:",s:"With calm and presence,<br>DREVAIA DIGITAL",h:"Go to the library",l:"Go to the store"},
+      fr:{title:"✨ Merci pour votre confiance",msg:"Votre achat a été reçu avec soin.<br>Votre ebook arrivera bientôt par e-mail.",q:"Si vous avez des questions ou souhaitez partager votre expérience :",e:"Vous pouvez aussi m’écrire ici :",s:"Avec calme et présence,<br>DREVAIA DIGITAL",h:"Aller à la bibliothèque",l:"Aller à la boutique"},
+      pt:{title:"✨ Obrigado pela sua confiança",msg:"Sua compra foi recebida com cuidado.<br>Seu ebook chegará em breve por e-mail.",q:"Se tiver dúvidas ou quiser compartilhar sua experiência:",e:"Você também pode me escrever aqui:",s:"Com calma e presença,<br>DREVAIA DIGITAL",h:"Ir para a biblioteca",l:"Ir para a loja"}
+    };
+
+    let lang = localStorage.getItem("drevaiaLang") || (navigator.language||"es").slice(0,2);
+    if(!t[lang]) lang="es";
+
+    function setLang(l){
+      lang=l;
+      localStorage.setItem("drevaiaLang",l);
+      apply();
+      document.documentElement.lang=l;
+    }
+
+    function apply(){
+      const x=t[lang];
+      document.getElementById("title").innerHTML=x.title;
+      document.getElementById("message").innerHTML=x.msg;
+      document.getElementById("question").textContent=x.q;
+      document.getElementById("emailText").textContent=x.e;
+      document.getElementById("signature").innerHTML=x.s;
+      document.getElementById("homeBtn").textContent=x.h;
+      document.getElementById("libraryBtn").textContent=x.l;
+    }
+
+    apply();
+    document.documentElement.lang=lang;
+  </script>
+
+</body>
+</html>

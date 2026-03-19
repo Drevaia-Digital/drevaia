@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Noa Drevaia | Manifiesto & Autoría — Drevaia Digital</title>
+
+  <meta name="description" content="Drevaia Digital crea ebooks conscientes, sanadores y profundos. Conoce a Noa Drevaia, su manifiesto y su obra. Palabras que sanan, conciencia que transforma." />
+  <meta name="author" content="Drevaia Digital" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- ✅ Canonical -->
+  <link rel="canonical" href="https://drevaia.com/biografia.html" />
+
+  <!-- ✅ hreflang -->
+  <link rel="alternate" hreflang="x-default" href="https://drevaia.com/biografia.html" />
+  <link rel="alternate" hreflang="es" href="https://drevaia.com/biografia.html" />
+  <link rel="alternate" hreflang="en" href="https://drevaia.com/en/about.html" />
+  <link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/a-propos.html" />
+  <link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/sobre.html" />
+
+  <!-- ✅ Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Drevaia Digital" />
+  <meta property="og:title" content="Noa Drevaia — Drevaia Digital" />
+  <meta property="og:description" content="Escritura consciente. Productos inteligentes con alma. Conoce a Noa Drevaia." />
+  <meta property="og:url" content="https://drevaia.com/biografia.html" />
+  <meta property="og:image" content="https://drevaia.com/og-drevaia.webp" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- ✅ Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Noa Drevaia | Manifiesto & Autoría" />
+  <meta name="twitter:description" content="Palabras que sanan. Conciencia que transforma." />
+  <meta name="twitter:image" content="https://drevaia.com/og-drevaia.webp" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#070707;
+      --panel:#0f0f0f;
+      --gold:#d4b08c;
+      --text:#ededed;
+      --soft:#cfcfcf;
+      --line:#1c1c1c;
+    }
+
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+
+    body{
+      font-family:'Lora',serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.8;
+    }
+
+    /* HEADER */
+    header{
+      max-width:1100px;
+      margin:auto;
+      padding:18px 20px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+
+    header img{
+      width:140px;
+      height:auto;
+    }
+
+    /* FLAGS */
+    .flags{
+      display:flex;
+      gap:10px;
+    }
+
+    .flags a{
+      position:relative;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .flags img{
+      width:26px;
+      height:26px;
+      border-radius:50%;
+      opacity:.85;
+      transition:.2s ease;
+    }
+
+    .flags img:hover{
+      opacity:1;
+      transform:translateY(-2px);
+    }
+
+    .flags a.active img{
+      opacity:1;
+      outline:2px solid var(--gold);
+      outline-offset:3px;
+    }
+
+    /* Tooltip */
+    .flags a::after{
+      content:attr(aria-label);
+      position:absolute;
+      bottom:-34px;
+      left:50%;
+      transform:translateX(-50%);
+      background:#151515;
+      color:var(--gold);
+      font-size:12px;
+      padding:4px 10px;
+      border-radius:8px;
+      opacity:0;
+      pointer-events:none;
+      transition:.2s;
+      white-space:nowrap;
+    }
+
+    .flags a:hover::after{
+      opacity:1;
+    }
+
+    /* HERO */
+    .hero{
+      text-align:center;
+      padding:90px 20px 70px;
+      background:linear-gradient(180deg,#050505,#0a0a0a);
+    }
+
+    .hero h1{
+      font-family:'Playfair Display',serif;
+      font-size:42px;
+      line-height:1.25;
+      color:#fff;
+      margin-bottom:14px;
+    }
+
+    .hero p{
+      max-width:680px;
+      margin:auto;
+      font-style:italic;
+      font-size:18px;
+      color:var(--gold);
+    }
+
+    /* MAIN */
+    main{
+      max-width:950px;
+      margin:auto;
+      padding:0 20px;
+    }
+
+    section{
+      padding:70px 0;
+      border-bottom:1px solid var(--line);
+    }
+
+    h2{
+      font-family:'Playfair Display',serif;
+      font-size:30px;
+      margin-bottom:22px;
+      text-align:center;
+    }
+
+    /* MANIFEST CARD */
+    .manifest{
+      background:var(--panel);
+      border:1px solid #222;
+      border-radius:14px;
+      padding:32px;
+      max-width:820px;
+      margin:auto;
+      text-align:center;
+      font-size:17px;
+      color:var(--soft);
+      box-shadow:0 18px 45px rgba(0,0,0,.55);
+    }
+
+    /* AUTHOR */
+    .author{
+      max-width:820px;
+      margin:auto;
+      font-size:18px;
+      color:var(--soft);
+      text-align:center;
+    }
+
+    .author b{
+      color:#fff;
+    }
+
+    /* CTA */
+    .cta{
+      text-align:center;
+      margin-top:35px;
+    }
+
+    .cta a{
+      display:inline-block;
+      border:1px solid var(--gold);
+      padding:12px 26px;
+      border-radius:10px;
+      color:var(--gold);
+      text-decoration:none;
+      transition:.25s;
+    }
+
+    .cta a:hover{
+      background:var(--gold);
+      color:#000;
+    }
+
+    /* FOOTER */
+    footer{
+      text-align:center;
+      padding:55px 20px;
+      font-size:14px;
+      color:#aaa;
+    }
+
+    footer a{
+      color:var(--gold);
+      text-decoration:none;
+    }
+
+    footer a:hover{
+      text-decoration:underline;
+    }
+
+    @media(max-width:650px){
+      .hero h1{font-size:32px}
+      h2{font-size:24px}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="https://drevaia.com/" aria-label="Inicio Drevaia Digital">
+    <img src="/logo.webp" alt="Drevaia Digital">
+  </a>
+
+  <nav class="flags" aria-label="Idiomas">
+    <a href="https://drevaia.com/biografia.html" class="active" aria-label="Español">
+      <img src="/flags/es.webp" alt="ES">
+    </a>
+
+    <a href="https://drevaia.com/en/about.html" aria-label="English">
+      <img src="/flags/en.webp" alt="EN">
+    </a>
+
+    <a href="https://drevaia.com/fr/a-propos.html" aria-label="Français">
+      <img src="/flags/fr.webp" alt="FR">
+    </a>
+
+    <a href="https://drevaia.com/pt/sobre.html" aria-label="Português">
+      <img src="/flags/pt.webp" alt="PT">
+    </a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Palabras que sanan.<br>Portales que transforman.</h1>
+  <p>Productos Inteligentes con Alma para volver a ti.</p>
+</section>
+
+<main>
+
+  <section>
+    <h2>Manifiesto Drevaia</h2>
+
+    <div class="manifest">
+      Drevaia no vende ebooks.<br>
+      Drevaia abre portales de transformación.<br><br>
+
+      Cada creación aquí nace con propósito:<br>
+      sanar, conmover, despertar.<br><br>
+
+      Nuestros productos no son simples archivos digitales.<br>
+      Son <b>Productos Inteligentes con Alma</b>.<br><br>
+
+      Porque la verdadera transformación no se descarga:<br>
+      <b>Se vive. Se siente. Se honra.</b>
+    </div>
+  </section>
+
+  <section>
+    <h2>La autora</h2>
+
+    <div class="author">
+      <p>
+        <b>Noa Drevaia</b> es creadora digital, escritora del alma y fundadora de
+        <b>Drevaia Digital</b>.<br><br>
+
+        Sus ebooks no están hechos solo para leerse…<br>
+        <b>Están hechos para sentirse.</b><br><br>
+
+        Escritos como espejos, susurros y abrazos, acompañan procesos de transformación,
+        renacimiento y regreso interior.<br><br>
+
+        Porque cuando sanas por dentro,<br>
+        <b>todo lo demás florece.</b><br><br>
+
+        Su propósito es ayudarte a volver a ti…<br>
+        y a quedarte.
+      </p>
+    </div>
+
+    <div class="cta">
+      <a href="https://drevaia.com/">Volver al inicio</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © Drevaia Digital · Todos los derechos reservados<br>
+  Palabras que sanan · Conciencia que transforma<br><br>
+
+  <a href="https://drevaia.com/legal/index.html">
+    Marco Legal — Privacidad y Reembolsos
+  </a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Drevaia — Conecta conmigo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", system-ui, Arial, sans-serif;
+      background: #ffffff;
+      color: #222;
+    }
+
+    .page-wrapper {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 16px;
+    }
+
+    /* ——— SECCIÓN DARK ELEGANTE ——— */
+    .drevaia-contact {
+      max-width: 900px;
+      margin: 40px auto;
+      text-align: center;
+      background: #0f141b;
+      color: #e9eef7;
+      padding: 26px 20px;
+      border-radius: 22px;
+      border: 1px solid #2b3a4d;
+      box-shadow: 0 10px 26px rgba(0,0,0,0.25);
+    }
+
+    .drevaia-intro {
+      font-size: 1rem;
+      margin: 0 0 14px 0;
+      color: #dfe6ff;
+      opacity: 0.9;
+    }
+
+    .drevaia-contact h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #eef3ff;
+      margin-bottom: 24px;
+    }
+
+    .drevaia-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    .drevaia-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      text-decoration: none;
+      background: linear-gradient(135deg, #151d28, #1b2533);
+      border: 1px solid #2b3a4d;
+      box-shadow: 0 10px 26px rgba(0,0,0,0.25);
+      color: #e9eef7;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all .25s ease;
+    }
+
+    .drevaia-btn:hover {
+      background: linear-gradient(135deg, #1f2b3b, #26354a);
+      transform: translateY(-2px);
+      box-shadow: 0 14px 28px rgba(0,0,0,0.35);
+    }
+
+    .drevaia-btn .icon { font-size: 1.2rem; }
+
+    .drevaia-btn .text {
+      flex: 1;
+      text-align: left;
+    }
+
+    /* ——— BANDERAS ——— */
+    .lang-switch {
+      text-align: center;
+      margin-bottom: 14px;
+    }
+
+    .lang-switch span {
+      cursor: pointer;
+      font-size: 1.6rem;
+      margin: 0 6px;
+      filter: grayscale(30%);
+      transition: transform .2s, filter .2s;
+      user-select: none;
+    }
+
+    .lang-switch span:hover {
+      transform: scale(1.12);
+      filter: grayscale(0%);
+    }
+
+    .lang-switch .active {
+      filter: grayscale(0%);
+      transform: scale(1.18);
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+  <section class="drevaia-contact">
+
+    <!-- SELECTOR DE IDIOMA -->
+    <div class="lang-switch">
+      <span data-lang="es" title="Español">🇪🇸</span>
+      <span data-lang="en" title="English">🇬🇧</span>
+      <span data-lang="fr" title="Français">🇫🇷</span>
+      <span data-lang="pt" title="Português">🇵🇹</span>
+    </div>
+
+    <!-- FRASES -->
+    <p class="drevaia-intro es">
+      Gracias por estar. Si deseas seguir caminando juntos, aquí me encuentras.
+    </p>
+    <p class="drevaia-intro en">
+      Thank you for being here. If you feel called to keep walking together, you can find me here.
+    </p>
+    <p class="drevaia-intro fr">
+      Merci d’être ici. Si tu souhaites continuer ce chemin ensemble, tu peux me trouver ici.
+    </p>
+    <p class="drevaia-intro pt">
+      Obrigada por estar aqui. Se quiseres continuar caminhando comigo, aqui podes encontrar-me.
+    </p>
+
+    <!-- TÍTULOS -->
+    <h2 class="es">Conecta conmigo</h2>
+    <h2 class="en">Connect with me</h2>
+    <h2 class="fr">Connecte-toi avec moi</h2>
+    <h2 class="pt">Conecta-te comigo</h2>
+
+    <!-- BOTONES -->
+    <div class="drevaia-grid">
+
+      <!-- PAYHIP -->
+      <a class="drevaia-btn es" href="https://payhip.com/DrevaiaDigital" target="_blank" rel="noopener">
+        <span class="icon">🛒</span><span class="text">Tienda en Payhip</span>
+      </a>
+      <a class="drevaia-btn en" href="https://payhip.com/DrevaiaDigital" target="_blank" rel="noopener">
+        <span class="icon">🛒</span><span class="text">Payhip Store</span>
+      </a>
+      <a class="drevaia-btn fr" href="https://payhip.com/DrevaiaDigital" target="_blank" rel="noopener">
+        <span class="icon">🛒</span><span class="text">Boutique Payhip</span>
+      </a>
+      <a class="drevaia-btn pt" href="https://payhip.com/DrevaiaDigital" target="_blank" rel="noopener">
+        <span class="icon">🛒</span><span class="text">Loja no Payhip</span>
+      </a>
+
+      <!-- HOTMART -->
+      <a class="drevaia-btn es" href="https://hotmart.com/es/club/99175292" target="_blank" rel="noopener">
+        <span class="icon">🔥</span><span class="text">Hotmart Club</span>
+      </a>
+      <a class="drevaia-btn en fr pt" href="https://hotmart.com/es/club/99175292" target="_blank" rel="noopener">
+        <span class="icon">🔥</span><span class="text">Hotmart Club</span>
+      </a>
+
+      <!-- REDES (texto igual para todos) -->
+      <a class="drevaia-btn es en fr pt" href="https://www.instagram.com/drevaia.digital/" target="_blank" rel="noopener">
+        <span class="icon">📷</span><span class="text">Instagram</span>
+      </a>
+
+      <a class="drevaia-btn es en fr pt" href="https://www.tiktok.com/@drevaia.digital" target="_blank" rel="noopener">
+        <span class="icon">🎥</span><span class="text">TikTok</span>
+      </a>
+
+      <a class="drevaia-btn es en fr pt" href="https://www.youtube.com/@Drevaia" target="_blank" rel="noopener">
+        <span class="icon">▶️</span><span class="text">YouTube</span>
+      </a>
+
+      <a class="drevaia-btn es en fr pt" href="https://www.facebook.com/profile.php?id=61578074633618" target="_blank" rel="noopener">
+        <span class="icon">📘</span><span class="text">Facebook</span>
+      </a>
+
+      <!-- EMAIL -->
+      <a class="drevaia-btn es en fr pt" href="mailto:noadrevaia@gmail.com">
+        <span class="icon">📧</span><span class="text">noadrevaia@gmail.com</span>
+      </a>
+
+      <a class="drevaia-btn es en fr pt" href="mailto:noadrevaia@zohomail.com">
+        <span class="icon">📩</span><span class="text">noadrevaia@zohomail.com</span>
+      </a>
+
+    </div>
+  </section>
+
+</div>
+
+<!-- ——— SCRIPT DE IDIOMAS ——— -->
+<script>
+  const allLangs = ["es","en","fr","pt"];
+
+  function setLang(lang) {
+
+    /*1️⃣ Ocultar todos los elementos de idiomas */
+    document.querySelectorAll(
+      allLangs.map(l => "." + l).join(",")
+    ).forEach(el => {
+      el.style.display = "none";
+    });
+
+    /* 2️⃣ Mostrar solo el idioma elegido */
+    document.querySelectorAll("." + lang).forEach(el => {
+      el.style.display = "";
+    });
+
+    /* 3️⃣ Activar la bandera correcta */
+    document.querySelectorAll(".lang-switch span").forEach(f => {
+      f.classList.toggle("active", f.dataset.lang === lang);
+    });
+  }
+
+  document.querySelectorAll(".lang-switch span").forEach(flag => {
+    flag.addEventListener("click", () => setLang(flag.dataset.lang));
+  });
+
+  // idioma inicial
+  setLang("es");
+</script>
+
+</body>
+</html>
+

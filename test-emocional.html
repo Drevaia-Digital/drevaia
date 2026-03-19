@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Test emocional — Comprende lo que estás sintiendo | Drevaia Digital</title>
+
+<meta name="description" content="Haz el test emocional de Drevaia y descubre qué emoción puede estar guiando tu momento actual.">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://drevaia.com/test-emocional.html">
+
+<link rel="stylesheet" href="css/drevaia.css">
+
+<style>
+
+.test-container{
+max-width:720px;
+margin:80px auto;
+text-align:center;
+}
+
+.test-question{
+font-size:24px;
+margin-bottom:30px;
+font-family:"Cormorant Garamond", serif;
+}
+
+.test-option{
+display:block;
+margin:12px auto;
+padding:14px 20px;
+max-width:420px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.1);
+background:rgba(255,255,255,0.03);
+color:#fff;
+cursor:pointer;
+transition:0.2s;
+}
+
+.test-option:hover{
+background:rgba(212,176,140,0.1);
+border-color:var(--gold);
+}
+
+.test-result{
+margin-top:40px;
+font-size:22px;
+font-family:"Cormorant Garamond", serif;
+}
+
+.test-link{
+display:block;
+margin-top:20px;
+color:var(--gold);
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+<div class="test-container">
+
+<h1>Test emocional</h1>
+
+<p>
+A veces sentimos vacío, cansancio, confusión o soledad y no sabemos exactamente por qué.
+Este pequeño test emocional puede ayudarte a escuchar lo que tu interior intenta decirte.
+</p>
+
+<div id="testArea">
+
+<div class="test-question">
+¿Cómo describirías tu momento actual?
+</div>
+
+<button class="test-option" onclick="resultado('soledad')">
+Siento una especie de distancia interior
+</button>
+
+<button class="test-option" onclick="resultado('vacio')">
+Siento un vacío difícil de explicar
+</button>
+
+<button class="test-option" onclick="resultado('perdido')">
+Siento que he perdido mi dirección
+</button>
+
+<button class="test-option" onclick="resultado('cansancio')">
+Siento un cansancio profundo
+</button>
+
+</div>
+
+<div id="testResult" class="test-result" style="display:none;"></div>
+
+</div>
+
+</div>
+
+<script>
+
+function resultado(tipo){
+
+const result = document.getElementById("testResult");
+
+let texto="";
+let link="";
+let cta="";
+
+if(tipo==="soledad"){
+texto="Quizá estás atravesando una sensación de soledad emocional.";
+link="/por-que-me-siento-solo.html";
+cta="Explorar esta reflexión";
+}
+
+if(tipo==="vacio"){
+texto="Puede que estés experimentando una sensación de vacío interior.";
+link="/por-que-me-siento-vacio.html";
+cta="Comprender esta emoción";
+}
+
+if(tipo==="perdido"){
+texto="Tal vez estás en un momento donde tu dirección necesita redefinirse.";
+link="/por-que-me-siento-perdido.html";
+cta="Leer esta reflexión";
+}
+
+if(tipo==="cansancio"){
+texto="Tu cansancio puede ser más emocional que físico.";
+link="/por-que-me-siento-cansado-de-todo.html";
+cta="Explorar esta lectura";
+}
+
+document.getElementById("testArea").style.display="none";
+
+result.innerHTML =
+texto +
+'<br><a class="test-link" href="'+link+'">'+cta+'</a>';
+
+result.style.display="block";
+
+}
+
+</script>
+
+</body>
+
+</html>

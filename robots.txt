@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Bloquear archivos técnicos que no deben indexarse
+
+Disallow: /partials/
+Disallow: /data/
+
+# Sitemap principal del sitio
+
+Sitemap: https://drevaia.com/sitemap-index.xml
+
+

@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Drevaia Digital — Sanación Emocional y Transformación Personal | El Mapa Invisible</title>
+
+<meta name="description" content="Descubre cómo tus heridas emocionales moldean tu realidad y aprende a redibujar tu historia. Ebooks de sanación, autoconocimiento y transformación personal en Drevaia Digital.">
+<meta name="robots" content="index, follow">
+
+<!-- Canonical + hreflang -->
+<link rel="canonical" href="https://drevaia.com/">
+<link rel="alternate" hreflang="x-default" href="https://drevaia.com/">
+<link rel="alternate" hreflang="es" href="https://drevaia.com/">
+<link rel="alternate" hreflang="en" href="https://drevaia.com/en/">
+<link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/">
+<link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Drevaia Digital">
+<meta property="og:title" content="Vuelve a ti. Redibuja tu mundo. — Drevaia Digital">
+<meta property="og:description" content="Ebooks de sanación emocional y transformación personal. Descubre cómo tus heridas emocionales moldean tu realidad y aprende a redibujar tu historia.">
+<meta property="og:url" content="https://drevaia.com/">
+<meta property="og:image" content="https://drevaia.com/og-drevaia.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_ES">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Drevaia Digital — Donde lo humano y lo digital se encuentran">
+<meta name="twitter:description" content="Lecturas para sentir, comprenderte y volver a ti.">
+<meta name="twitter:image" content="https://drevaia.com/og-drevaia.webp">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Drevaia Digital",
+  "url": "https://drevaia.com/",
+  "description": "Biblioteca emocional de ebooks de sanación y autoconocimiento.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Drevaia Digital"
+  }
+}
+</script>
+
+<!-- Precarga -->
+<link rel="preload" as="image" href="/logo.webp">
+
+<!-- DREVAIA CSS GLOBAL (OBLIGATORIO) -->
+<link rel="stylesheet" href="/css/drevaia.css">
+
+<!-- CONTACT CARD -->
+<link rel="stylesheet" href="/partials/contact.css">
+
+<!-- FUENTES -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* ===== FIX LECTURA DEL DÍA ===== */
+.reading-container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.reading-container h1 {
+  font-size: 28px;
+}
+
+.reading-container p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ===== FIX REAL LECTURA DEL DÍA ===== */
+#daily-reading,
+#reading-view,
+.reading-view,
+.reading-content {
+  max-width: 820px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#daily-reading h1,
+#reading-view h1,
+.reading-view h1,
+.reading-content h1 {
+  font-size: 30px;
+}
+
+/* ===== CLAIM DREVAIA ===== */
+.brand-claim{
+  text-align:center;
+  font-size:18px;
+  color:rgba(255,255,255,0.65);
+  font-style:italic;
+  margin-bottom:28px;
+}
+
+:root{
+  --bg:#0b0b0d;
+  --card:#121216;
+  --gold:#d4b08c;
+  --soft:#cfcfcf;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  font-family:"Inter", system-ui, sans-serif;
+  background:var(--bg);
+  color:#eee;
+  line-height:1.85;
+}
+h1, h2, h3{
+  font-family:"Cormorant Garamond", serif;
+  font-weight:600;
+}
+
+.wrap{
+  max-width:980px;
+  margin:auto;
+  padding:50px 20px 120px;
+}
+
+/* HEADER */
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  margin-bottom:60px;
+}
+
+.logo{
+  height:56px;
+  width:auto;
+  object-fit:contain;
+}
+
+/* FLAGS */
+.flags{
+  display:flex;
+  gap:10px;
+}
+
+.flags a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.flags img{
+  width:28px;
+  height:28px;
+  opacity:.85;
+  transition:.2s ease;
+  border-radius:50%;
+}
+
+.flags img:hover{
+  opacity:1;
+  transform:translateY(-2px);
+}
+
+/* ===== Language signature minimal ===== */
+
+.language-selector{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:4px;
+  margin-top:8px;
+}
+
+.language-text{
+  font-size:10px;
+  letter-spacing:1.6px;
+  text-transform:uppercase;
+  font-family:"Inter", sans-serif;
+  color:rgba(255,255,255,0.35);
+  font-weight:500;
+  transition:0.3s ease;
+}
+
+.language-text::after{
+  content:"";
+  display:block;
+  width:22px;
+  height:1px;
+  margin:6px auto 0;
+  background:rgba(212,176,140,0.35);
+  transition:0.3s ease;
+}
+
+.language-selector:hover .language-text{
+  color:rgba(255,255,255,0.65);
+}
+
+.language-selector:hover .language-text::after{
+  width:40px;
+  background:rgba(212,176,140,0.65);
+}
+
+/* INTRO */
+h1{
+  text-align:center;
+  color:var(--gold);
+  font-size:42px;
+  margin-bottom:22px;
+}
+
+.intro{
+  max-width:640px;
+  margin:0 auto 18px;
+  font-size:18px;
+  color:#ccc;
+  text-align:left;
+}
+
+.transition{
+  max-width:760px;
+  margin:30px auto 70px;
+  font-size:17px;
+  color:#bfbfbf;
+  font-style:italic;
+  text-align:center;
+}
+
+/* BOOK GRID */
+.section{
+  margin-bottom:90px;
+}
+
+.section h2{
+  color:var(--gold);
+  font-size:25px;
+  margin-bottom:18px;
+}
+
+.books{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+.book{
+  background:var(--card);
+  padding:26px;
+  border-radius:14px;
+  text-align:center;
+  transition: 0.25s ease;
+}
+
+.book-cover{
+  max-width:220px;
+  margin:0 auto 16px;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 18px 40px rgba(0,0,0,.45);
+}
+
+.book-cover img{
+  width:100%;
+  display:block;
+}
+
+.book h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.book p{
+  font-size:16px;
+  color:var(--soft);
+  margin-bottom:16px;
+}
+
+.book a{
+  display:inline-block;
+  padding:10px 22px;
+  border:1px solid var(--gold);
+  color:var(--gold);
+  text-decoration:none;
+  border-radius:10px;
+  transition:.25s ease;
+}
+
+.book a:hover{
+  background:var(--gold);
+  color:#000;
+}
+
+/* FOOTER */
+footer{
+  margin-top:120px;
+  text-align:center;
+  font-size:14px;
+  color:#777;
+}
+
+footer a{
+  color:var(--gold);
+  text-decoration:none;
+}
+
+footer a:hover{
+  text-decoration:underline;
+}
+
+
+/* =========================================
+   DREVAIA — Animación suave (Fade-in)
+========================================= */
+
+@keyframes drevaiaFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplicar entrada suave */
+.section,
+.book,
+.intro,
+.transition {
+  animation: drevaiaFadeUp 0.9s ease both;
+}
+
+.book {
+  animation-delay: 0.15s;
+}
+
+/* Tarjetas con hover más premium */
+.book:hover {
+  transform: translateY(-6px);
+  transition: 0.25s ease;
+  box-shadow: 0 18px 45px rgba(0,0,0,0.55);
+}
+
+/* ===== LECTURA DESTACADA ===== */
+.featured{
+  margin: 70px auto 90px;
+  text-align: center;
+}
+
+.featured h2{
+  color: var(--gold);
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
+.featured-card{
+  max-width: 720px;
+  margin: auto;
+  padding: 40px 34px;
+  border-radius: 18px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.05),
+    rgba(255,255,255,0.015)
+  );
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.featured-quote{
+  font-size: 22px;
+  line-height: 1.6;
+  font-family: "Cormorant Garamond", serif;
+  color: rgba(255,255,255,0.92);
+  margin-bottom: 18px;
+}
+
+.featured-text{
+  font-size: 16px;
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 26px;
+}
+
+.featured-btn{
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 999px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.featured-btn:hover{
+  background: var(--gold);
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   BOTÓN EXPLORAR BIBLIOTECA
+========================================= */
+
+.explore-library{
+  text-align: center;
+  margin: 50px auto 90px;
+}
+
+.explore-btn{
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(212,176,140,0.35);
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.explore-btn:hover{
+  background: rgba(212,176,140,0.18);
+  border-color: rgba(212,176,140,0.65);
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   🌍 DREVAIA WORLDWIDE — Global Library Box
+========================================= */
+
+.worldwide{
+  margin: 90px auto 90px;
+  text-align: center;
+}
+
+.worldwide h2{
+  color: var(--gold);
+  font-size: 30px;
+  margin-bottom: 18px;
+  letter-spacing: 0.4px;
+}
+
+.worldwide-text{
+  max-width: 650px;
+  margin: 0 auto 32px;
+  font-size: 17px;
+  color: rgba(255,255,255,0.70);
+  line-height: 1.7;
+}
+
+.worldwide-links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.worldwide-links a{
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(212,176,140,0.65);
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.25s ease;
+  background: rgba(255,255,255,0.02);
+}
+
+.worldwide-links a:hover{
+  background: var(--gold);
+  color: #000;
+  transform: translateY(-3px);
+}
+
+/* =========================================
+   🔍 BUSCADOR PREMIUM DREVAIA
+========================================= */
+
+.ebook-search{
+  max-width: 520px;
+  margin: 10px auto 40px;
+  text-align: center;
+  position: relative;
+}
+
+.ebook-search input{
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 15px;
+  border-radius: 999px;
+  border: 1px solid rgba(212,176,140,0.35);
+  background: rgba(255,255,255,0.03);
+  color: #eee;
+  outline: none;
+}
+
+.ebook-search input::placeholder{
+  color: rgba(255,255,255,0.55);
+}
+
+/* =========================================
+   🔎 DREVAIA SEARCH DROPDOWN
+========================================= */
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  margin-top: 10px;
+  background: #121216;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0,0,0,.45);
+
+  display: none;
+  text-align: left;
+  z-index: 999;
+}
+
+.search-item {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.search-item:last-child {
+  border-bottom: none;
+}
+
+.search-item:hover {
+  background: rgba(212,176,140,0.08);
+}
+
+.search-title {
+  font-size: 15px;
+  color: #eee;
+  margin-bottom: 4px;
+}
+
+/* tipo de resultado */
+
+.search-type {
+  font-size: 11px;
+  color: rgba(255,255,255,0.45);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display:block;
+  margin-bottom:3px;
+}
+
+/* palabra resaltada */
+
+.search-highlight{
+  background: rgba(212,176,140,0.30);
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* ===== ENTRADA EMOCIONAL ===== */
+
+.emotion-entry{
+max-width:620px;
+margin:25px auto 40px;
+text-align:center;
+}
+
+.emotion-question{
+color:rgba(255,255,255,0.75);
+font-size:16px;
+margin-bottom:14px;
+}
+
+.emotion-list{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.emotion-list li{
+margin:8px 0;
+}
+
+.emotion-list a{
+color:var(--gold);
+text-decoration:none;
+font-size:17px;
+}
+
+.emotion-list a:hover{
+text-decoration:underline;
+}
+
+</style>
+
+<script>
+/* =========================================
+   DREVAIA SMART LANGUAGE SYSTEM
+========================================= */
+
+(function(){
+
+const supported = ["en","fr","pt","es"];
+
+/* idioma guardado */
+const savedLang = localStorage.getItem("drevaia_lang");
+
+/* idioma navegador */
+const browserLang =
+(navigator.language || navigator.userLanguage || "es")
+.substring(0,2);
+
+/* ruta actual */
+const path = window.location.pathname;
+
+
+/* =====================================
+SI USUARIO YA TIENE IDIOMA GUARDADO
+===================================== */
+
+if(savedLang){
+
+  /* español vive en la raíz */
+  if(savedLang === "es"){
+    if(path !== "/" && path !== "/index.html"){
+      window.location.href = "/";
+    }
+    return;
+  }
+
+  /* otros idiomas */
+  if(!path.startsWith("/"+savedLang)){
+    window.location.href = "/"+savedLang+"/";
+  }
+
+  return;
+
+}
+
+
+
+/* =====================================
+   DETECTAR IDIOMA AUTOMÁTICO
+===================================== */
+
+if(savedLang){
+
+  if(
+    !path.startsWith("/"+savedLang) &&
+    savedLang !== "es"
+  ){
+    window.location.href = "/"+savedLang+"/";
+  }
+
+  return;
+
+}
+
+})();
+
+</script>
+
+<!-- SEO Idiomas internacionales -->
+
+<link rel="alternate" hreflang="es" href="https://drevaia.com/" />
+<link rel="alternate" hreflang="en" href="https://drevaia.com/en/" />
+<link rel="alternate" hreflang="fr" href="https://drevaia.com/fr/" />
+<link rel="alternate" hreflang="pt" href="https://drevaia.com/pt/" />
+<link rel="alternate" hreflang="x-default" href="https://drevaia.com/" />
+
+
+</head>
+
+
+<body>
+
+<div class="wrap">
+
+<header>
+
+<a href="/" aria-label="Inicio Drevaia Digital">
+  <img src="/logo.webp" alt="Drevaia Digital" class="logo" loading="eager">
+</a>
+
+<div class="language-selector">
+
+<nav class="flags" aria-label="Seleccionar idioma">
+
+<a href="https://drevaia.com/"
+   lang="es"
+   aria-label="Español"
+   onclick="localStorage.removeItem('drevaia_lang')">
+   <img src="/flags/es.webp" alt="Español">
+</a>
+
+<a href="/en/"
+lang="en"
+aria-label="English"
+onclick="localStorage.setItem('drevaia_lang','en')">
+<img src="/flags/en.webp" alt="English">
+</a>
+
+  <a href="/fr/" 
+     aria-label="French"
+     onclick="localStorage.setItem('drevaia_lang','fr')">
+     <img src="/flags/fr.webp" alt="FR">
+  </a>
+
+  <a href="/pt/" 
+     aria-label="Portuguese"
+     onclick="localStorage.setItem('drevaia_lang','pt')">
+     <img src="/flags/pt.webp" alt="PT">
+  </a>
+
+</nav>
+
+  <span class="language-text" id="languageText">Language</span>
+
+
+</div>
+
+</header>
+
+
+<!-- 🔍 BUSCADOR RÁPIDO DE EBOOKS -->
+<section class="ebook-search">
+  <input 
+    type="text" 
+    id="ebookSearchInput" 
+    placeholder="Buscar ebook por título o tema…"
+    aria-label="Buscar ebook"
+    autocomplete="off"
+  />
+  <div id="searchResults" class="search-results"></div>
+</section>
+
+<main>
+
+<h1>Vuelve a ti. Redibuja tu mundo.</h1>
+
+<div class="emotion-entry">
+
+<p class="emotion-question">
+Quizá llegaste aquí porque algo dentro de ti está preguntando:
+</p>
+
+<ul class="emotion-list">
+
+<li><a href="/por-que-me-siento-solo.html">¿Por qué me siento solo?</a></li>
+
+<li><a href="/por-que-me-siento-vacio.html">¿Por qué me siento vacío?</a></li>
+
+<li><a href="/por-que-me-siento-perdido.html">¿Por qué me siento perdido?</a></li>
+
+<li><a href="/por-que-me-siento-triste-sin-motivo.html">¿Por qué me siento triste sin motivo?</a></li>
+
+</ul>
+
+</div>
+
+<div style="text-align:center; margin:25px 0 30px;">
+  <a href="/start-here.html" class="featured-btn">
+    No sé por dónde empezar →
+  </a>
+</div>
+
+<div style="text-align:center; margin:0 0 60px;">
+  <a href="/mapa-emocional.html" class="featured-btn">
+    Explorar preguntas sobre emociones →
+  </a>
+</div>
+
+<p class="brand-claim">
+Ebooks de sanación emocional y transformación personal
+</p>
+
+<p class="intro">
+No repites personas. Repites mapas.
+</p>
+
+<p class="intro">
+Muchos de tus patrones no nacieron ayer.
+Nacieron en momentos donde aprendiste a sobrevivir.
+Heridas que se volvieron decisiones.
+Miedos que se disfrazaron de carácter.
+Silencios que se hicieron costumbre.
+</p>
+
+<p class="intro">
+El mapa invisible no se ve.
+Pero dirige tus elecciones, tus vínculos y la forma en que te hablas.
+Comprenderlo no es culparte.
+Es liberarte.
+</p>
+
+<p class="intro">
+Drevaia Digital es un refugio para ese proceso.
+Un espacio donde puedes respirar, escucharte y avanzar sin máscaras,
+a tu propio ritmo.
+Aquí no hay juicios ni prisas, solo conciencia y dirección.
+</p>
+
+<p class="intro">
+No elijas por título.
+Elige por el momento que estás viviendo.
+Algunos libros llegan para sostenerte.
+Otros, para ayudarte a redibujar tu historia.
+</p>
+
+<div style="text-align:center; margin:40px 0 60px;">
+  <a href="/blog/es/el-mapa-invisible-de-las-heridas-emocionales.html"
+     class="featured-btn">
+     Descubrir el mapa invisible →
+  </a>
+</div>
+
+<!-- ===== LECTURA DESTACADA DEL DÍA ===== -->
+<section class="featured">
+
+  <h2>Lectura del día</h2>
+
+  <div class="featured-card">
+    <p class="featured-quote">
+      “No estás rota.  
+      Estás cansada de sostener demasiado en silencio.”
+    </p>
+
+    <p class="featured-text">
+      Si hoy todo pesa, esta lectura puede ser un primer refugio.
+    </p>
+
+    <a class="featured-btn" href="/library/vivir-en-automatico">
+      Abrir lectura →
+    </a>
+  </div>
+
+</section>
+
+
+<!-- ===== COLECCIONES PRINCIPALES ===== -->
+<section class="section">
+  <h2>Colecciones principales</h2>
+
+  <div class="books">
+
+<!-- SUSURROS -->
+<div class="book"
+     data-search="susurros sanacion emocional silencio calma refugio palabras suaves acompanamiento dolor">
+  <div class="book-cover">
+    <picture>
+      <source srcset="/imagenes/susurros.webp" type="image/webp">
+      <img src="/imagenes/susurros.webp"
+           alt="Susurros — Sanación emocional | Drevaia Digital"
+           loading="lazy">
+    </picture>
+  </div>
+
+      <h3>Susurros</h3>
+
+      <p>
+        Para los días en los que todo hace ruido por dentro.<br>
+        No viene a darte respuestas.<br>
+        <strong>Viene a sentarse contigo en silencio</strong><br>
+        y recordarte algo esencial:<br>
+        sigues aquí.
+      </p>
+
+      <a href="https://payhip.com/b/9cjAv" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- ESPEJOS -->
+    <div class="book"
+     data-search="espejos autoconocimiento patrones mirarte adentro conciencia introspeccion sanacion personal">
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/espejos.webp" type="image/webp">
+          <img src="/imagenes/espejos.webp"
+               alt="Espejos — Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Espejos</h3>
+
+      <p>
+        Para mirar lo que has evitado sin castigarte.<br>
+        No señala errores.<br>
+        <strong>Revela patrones</strong><br>
+        para que puedas elegir distinto.
+      </p>
+
+      <a href="https://payhip.com/b/cFJTb" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- ABRAZOS -->
+    <div class="book"
+     data-search="abrazos contencion descanso cansancio emocional sostenerte cuidado amor suave refugio">
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/abrazos.webp" type="image/webp">
+          <img src="/imagenes/abrazos.webp"
+               alt="Abrazos — Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Abrazos</h3>
+
+      <p>
+        Para cuando ser fuerte cansa.<br>
+        Para cuando sostenerte solo pesa demasiado.<br>
+        <strong>Aquí no tienes que explicarte.</strong><br>
+        Solo descansar.
+      </p>
+
+      <a href="https://payhip.com/b/eJASi" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<div class="transition">
+  Algunos libros llegan para sostenerte. Otros, para ayudarte a avanzar.
+</div>
+
+
+<!-- 🌍 DREVAIA WORLDWIDE LIBRARY -->
+<section class="worldwide">
+
+  <h2>Drevaia Worldwide</h2>
+
+  <p class="worldwide-text">
+    Drevaia es un refugio mundial.  
+    Puedes entrar a la biblioteca en tu idioma:
+  </p>
+
+  <div class="worldwide-links">
+
+    <a href="https://payhip.com/DrevaiaDigital/collection/biblioteca-espanol" target="_blank">
+      🇪🇸 Español
+    </a>
+
+    <a href="https://payhip.com/DrevaiaDigital/collection/english-library" target="_blank">
+      🇬🇧 English
+    </a>
+
+    <a href="https://payhip.com/DrevaiaDigital/collection/french-library" target="_blank">
+      🇫🇷 Français
+    </a>
+
+    <a href="https://payhip.com/DrevaiaDigital/collection/portuguese-library" target="_blank">
+      🇧🇷 Português
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ===== NUEVAS PRODUCCIONES ===== -->
+<section class="section">
+  <h2>Nuevas producciones</h2>
+
+  <div class="books">
+
+    <!-- 3 PASOS PARA VOLVER A TI -->
+    <div class="book"
+         data-search="3 pasos volver a ti regreso interior suavidad calma reconexion sanacion ebook gratis">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/3-pasos-para-volver-a-ti.webp" type="image/webp">
+          <img src="/imagenes/3-pasos-para-volver-a-ti.webp"
+               alt="3 pasos para volver a ti — Ebook gratuito | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>3 pasos para volver a ti <small>(Ebook regalo)</small></h3>
+
+      <p>
+        Cuando algo se rompe por dentro, no necesitas exigirte claridad.<br>
+        <strong>Necesitas volver a ti con suavidad.</strong><br>
+        Este ebook acompaña ese primer regreso, sin presión y sin prisa.
+      </p>
+
+      <a href="https://payhip.com/b/Bzn24" target="_blank" rel="noopener">
+        Descargar ebook gratis
+      </a>
+
+      <p class="book-close">
+        Si luego necesitas sostén, la colección <em>Abrazos</em> puede acompañarte.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CÓMO DECIR NO SIN CULPA -->
+<div class="book"
+     data-search="decir no culpa limites autoestima relaciones sanacion personal">
+
+  <div class="book-cover">
+    <picture>
+      <source srcset="/imagenes/como-decir-no.webp" type="image/webp">
+      <img src="/imagenes/como-decir-no.webp"
+           alt="Cómo decir no sin culpa | Drevaia Digital"
+           loading="lazy">
+    </picture>
+  </div>
+
+  <h3>Cómo decir “No” sin culpa</h3>
+
+  <p>
+    Aprendiste a ceder para no perder.<br>
+    A callar para no incomodar.<br>
+    <strong>Este libro te enseña a poner límites sin abandonarte.</strong>
+  </p>
+
+  <a href="https://payhip.com/b/2g89T" target="_blank" rel="noopener">
+    Ver en la tienda
+  </a>
+
+</div>
+
+<!-- LAS COSAS QUE EL TIEMPO NO PUDO BORRAR -->
+<div class="book"
+     data-search="las cosas que el tiempo no pudo borrar tiempo pasado recuerdos heridas memoria duelo nostalgia sanar historia emocional">
+
+  <div class="book-cover">
+    <picture>
+      <source srcset="/imagenes/el-tiempo-no-pudo-borrar.webp" type="image/webp">
+      <img src="/imagenes/el-tiempo-no-pudo-borrar.webp"
+           alt="Las cosas que el tiempo no pudo borrar | Drevaia Digital"
+           loading="lazy">
+    </picture>
+  </div>
+
+  <h3>Las cosas que el tiempo no pudo borrar</h3>
+
+  <p class="book-emotion">
+    Hay huellas que no desaparecen.<br>
+    <em>Y está bien. No todo debe olvidarse.</em>
+  </p>
+
+  <a href="https://payhip.com/b/dZ6Tw" target="_blank" rel="noopener">
+    Ver en la tienda
+  </a>
+</div>
+
+    <!-- MÁS ALLÁ DE LA PANTALLA -->
+    <div class="book"
+     data-search="mas alla de la pantalla presencia conciencia atencion digital desconexion bienestar mente">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/mas-alla-de-la-pantalla.webp" type="image/webp">
+          <img src="/imagenes/mas-alla-de-la-pantalla.webp"
+               alt="Más allá de la pantalla | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Más allá de la pantalla</h3>
+
+      <p class="book-emotion">
+        ¿Cuándo fue la última vez que estuviste<br>
+        <em>completamente presente contigo mismo?</em>
+      </p>
+
+      <a href="https://payhip.com/b/tAk0Q" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- CUANDO EL MIEDO TE ENCERRÓ -->
+    <div class="book"
+     data-search="miedo ansiedad encierro bloqueo emocional supervivencia valentia sanar miedo">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/cuando-el-miedo-te-encerro.webp" type="image/webp">
+          <img src="/imagenes/cuando-el-miedo-te-encerro.webp"
+               alt="Cuando el miedo te encerró | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Cuando el miedo te encerró</h3>
+
+      <p class="book-emotion">
+        Te veo. Está bien tener miedo.<br>
+        <em>Pero también está bien recordar que puedes vivir.</em>
+      </p>
+
+      <a href="https://go.hotmart.com/Y100794816D" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- EL LIBRO QUE ROBA EL BRAINROT -->
+    <div class="book"
+     data-search="brainrot exceso digital dopamina redes sociales atencion mente saturacion tecnologia">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/brainrot.webp" type="image/webp">
+          <img src="/imagenes/brainrot.webp"
+               alt="El libro que roba el brainrot | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>El libro que roba el brainrot</h3>
+
+      <p>
+        No es un libro cómodo.<br>
+        <strong>Es un libro necesario.</strong><br>
+        Sobre lo que el exceso digital está haciendo sin que lo notemos.
+      </p>
+
+      <a href="https://payhip.com/b/jSzU4" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- SABÍA A DÓNDE QUERÍA LLEGAR -->
+    <div class="book"
+     data-search="sabia a donde queria llegar vision proposito direccion sin camino avanzar claridad interior">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/sabia-a-donde-llegar.webp" type="image/webp">
+          <img src="/imagenes/sabia-a-donde-llegar.webp"
+               alt="Sabía a dónde quería llegar | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Sabía a dónde quería llegar… pero no había caminos</h3>
+
+      <p class="book-emotion">
+        Cuando la visión es clara<br>
+        <em>pero el camino aún no existe.</em>
+      </p>
+
+      <a href="https://payhip.com/b/p6hq2" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- FRACASO O NO -->
+    <div class="book"
+     data-search="fracaso seguir tu camino error aprendizaje resiliencia avanzar caida superacion">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/fracases-o-no.webp" type="image/webp">
+          <img src="/imagenes/fracases-o-no.webp"
+               alt="Fracaso o no, sigue tu camino | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Fracaso o no… Sigue tu camino</h3>
+
+      <p class="book-emotion">
+        El fracaso no es el final.<br>
+        <em>Es solo información en el camino.</em>
+      </p>
+
+      <a href="https://payhip.com/b/Nx0cF" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- CUIDAR TU MENTE -->
+    <div class="book"
+     data-search="cuidar tu mente salud mental autocuidado bienestar emocional descanso ansiedad equilibrio">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/cuidar-tu-mente.webp" type="image/webp">
+          <img src="/imagenes/cuidar-tu-mente.webp"
+               alt="Cuidar tu mente no es un lujo | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Cuidar tu mente no es un lujo</h3>
+
+      <p class="book-emotion">
+        Tu salud mental no es negociable.<br>
+        <em>Es lo primero. Siempre.</em>
+      </p>
+
+      <a href="https://payhip.com/b/Sb1Ea" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- MI AMIGO FIEL -->
+    <div class="book"
+     data-search="mi amigo fiel amor incondicional compania lealtad vinculos afecto presencia">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/mi-amigo-fiel.webp" type="image/webp">
+          <img src="/imagenes/mi-amigo-fiel.webp"
+               alt="Mi amigo fiel | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Mi amigo fiel</h3>
+
+      <p class="book-emotion">
+        Hay vínculos que no exigen.<br>
+        <strong>Solo permanecen.</strong><br>
+        Este libro honra ese amor silencioso que acompaña sin condiciones.
+      </p>
+
+      <a href="https://payhip.com/b/GsHUK" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+    </div>
+
+    <!-- PALABRAS CLAVE INTELIGENTES -->
+    <div class="book"
+     data-search="palabras clave inteligentes seo visibilidad expresarte marca personal comunicacion claridad intencion">
+
+      <div class="book-cover">
+        <picture>
+          <source srcset="/imagenes/seo.webp" type="image/webp">
+          <img src="/imagenes/seo.webp"
+               alt="Palabras clave inteligentes | Drevaia Digital"
+               loading="lazy">
+        </picture>
+      </div>
+
+      <h3>Palabras clave inteligentes</h3>
+
+      <p class="book-emotion">
+        Después de sanar hacia adentro,<br>
+        llega otro acto de coherencia:<br>
+        <strong>Aprender a expresarte sin distorsionarte.</strong><br>
+        No es SEO frío. Es claridad con intención.
+      </p>
+
+      <a href="https://payhip.com/b/n9MHe" target="_blank" rel="noopener">
+        Ver en la tienda
+      </a>
+
+      <p class="book-close">
+        Cuando te comprendes por dentro,<br>
+        también mereces ser comprendida afuera.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<div class="transition">
+No hay un orden correcto. Solo el momento que estás viviendo.
+</div>
+
+<!-- ✅ CONTACT SLOT (ONLY ONE) -->
+<div id="contact-slot"></div>
+
+<!-- 🌍 CIERRE DREVAIA — FIRMA EMOCIONAL -->
+<section class="worldwide">
+
+  <h2>Drevaia es un refugio mundial</h2>
+
+  <p class="worldwide-text">
+    La sanación también merece ser comprendida.<br>
+    No importa desde dónde llegues.<br>
+    Aquí, las palabras hablan tu idioma.
+  </p>
+
+  <div class="worldwide-links">
+    <a href="https://payhip.com/DrevaiaDigital/collection/biblioteca-espanol" target="_blank">
+      🇪🇸 Español
+    </a>
+    <a href="https://payhip.com/DrevaiaDigital/collection/english-library" target="_blank">
+      🇬🇧 English
+    </a>
+    <a href="https://payhip.com/DrevaiaDigital/collection/french-library" target="_blank">
+      🇫🇷 Français
+    </a>
+    <a href="https://payhip.com/DrevaiaDigital/collection/portuguese-library" target="_blank">
+      🇧🇷 Português
+    </a>
+  </div>
+
+  <p class="worldwide-text" style="margin-top:40px;">
+    Gracias por estar.<br>
+    Si deseas seguir caminando juntos,<br>
+    aquí me encuentras.
+  </p>
+
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>La palabra que abre portales de sanación.</p>
+
+  <p>
+    <a href="https://drevaia.com/legal/index.html">
+      Marco Legal — Privacidad y Reembolsos
+    </a>
+  </p>
+</footer>
+
+
+<!-- Audio -->
+<audio id="bg-music" preload="metadata">
+  <source src="/campanas.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+let audioStarted = false;
+
+window.addEventListener("scroll", () => {
+  if (audioStarted) return;
+
+  const audio = document.getElementById("bg-music");
+  if (audio) {
+    audio.volume = 0.12;
+    audio.play().catch(() => {});
+    audioStarted = true;
+  }
+}, { once: true });
+</script>
+
+
+<!-- ✅ LOAD CONTACT PARTIAL -->
+<script src="/partials/include.js" defer></script>
+
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  if (typeof loadContactAuto === "function") {
+    loadContactAuto();
+  }
+});
+</script>
+
+
+<script>
+
+/* =========================================
+   🔎 DREVAIA GLOBAL SEARCH — PRO VERSION
+========================================= */
+
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\w\s]/gi, "");
+}
+
+async function loadSearchIndex() {
+  const response = await fetch("/data/search-index.json");
+  return await response.json();
+}
+
+const searchInput = document.getElementById("ebookSearchInput");
+
+if (searchInput) {
+
+  loadSearchIndex().then(data => {
+
+    const currentLang = document.documentElement.lang || "es";
+    const filteredData = data;
+
+    searchInput.addEventListener("input", () => {
+
+      const query = normalize(searchInput.value.trim());
+
+/* =================================
+   EMOTIONAL PHRASE DETECTOR
+================================= */
+
+const emotionalRedirects = {
+
+  es: {
+    "me siento solo": "/por-que-me-siento-solo.html",
+    "me siento triste": "/por-que-me-siento-triste-sin-motivo.html",
+    "me siento vacío": "/por-que-me-siento-vacio.html",
+    "me siento perdido": "/por-que-me-siento-perdido.html",
+    "me siento mal": "/por-que-me-siento-mal-sin-razon.html",
+    "me siento raro": "/por-que-me-siento-mal-sin-razon.html",
+    "estoy cansado de todo": "/por-que-me-siento-cansado-de-todo.html",
+    "no se que hacer con mi vida": "/no-se-que-hacer-con-mi-vida.html",
+    "mi vida no tiene sentido": "/siento-que-mi-vida-no-tiene-sentido.html",
+    "no tengo proposito": "/no-tengo-proposito-en-la-vida.html",
+    "no tengo propósito": "/no-tengo-proposito-en-la-vida.html"
+  },
+
+  en: {
+    "i feel alone": "/en/why-do-i-feel-alone.html",
+    "i feel sad": "/en/why-do-i-feel-sad-for-no-reason.html",
+    "i feel empty": "/en/why-do-i-feel-empty.html",
+    "i feel lost": "/en/why-do-i-feel-lost.html",
+    "i feel tired": "/en/why-do-i-feel-tired-of-everything.html",
+    "my life has no meaning": "/en/i-feel-like-my-life-has-no-meaning.html"
+  },
+
+  fr: {
+    "je me sens seul": "/fr/pourquoi-je-me-sens-seul.html",
+    "je me sens triste": "/fr/pourquoi-je-me-sens-triste-sans-raison.html",
+    "je me sens vide": "/fr/pourquoi-je-me-sens-vide.html",
+    "je me sens perdu": "/fr/pourquoi-je-me-sens-perdu.html",
+    "ma vie na pas de sens": "/fr/ma-vie-na-pas-de-sens.html"
+  },
+
+  pt: {
+    "me sinto sozinho": "/pt/por-que-me-sinto-sozinho.html",
+    "me sinto triste": "/pt/por-que-me-sinto-triste-sem-motivo.html",
+    "me sinto vazio": "/pt/por-que-me-sinto-vazio.html",
+    "me sinto perdido": "/pt/por-que-me-sinto-perdido.html",
+    "minha vida nao tem sentido": "/pt/minha-vida-nao-tem-sentido.html"
+  }
+
+};
+const lang = document.documentElement.lang || "es";
+
+const redirects = emotionalRedirects[lang] || emotionalRedirects.es;
+
+for (const phrase in redirects) {
+
+  if (query.includes(phrase)) {
+
+    window.location.href = redirects[phrase];
+    return;
+
+  }
+
+}
+      if (query.length < 3) {
+        const dropdown = document.getElementById("searchResults");
+        if (dropdown) {
+          dropdown.innerHTML = "";
+          dropdown.style.display = "none";
+        }
+        return;
+      }
+
+      const queryWords = query.split(" ").filter(Boolean);
+
+/* =================================
+   CROSS LANGUAGE SEARCH
+================================= */
+
+const crossMap = {
+  miedo:["fear","peur","medo"],
+  fear:["miedo","peur","medo"],
+  peur:["fear","miedo","medo"],
+  medo:["fear","miedo","peur"],
+
+  ansiedad:["anxiety","anxiete","ansiedade"],
+  anxiety:["ansiedad","anxiete","ansiedade"],
+  anxiete:["anxiety","ansiedad","ansiedade"],
+  ansiedade:["anxiety","ansiedad","anxiete"],
+
+  soledad:["loneliness","solitude","solidao"],
+  loneliness:["soledad","solitude","solidao"],
+  solitude:["soledad","loneliness","solidao"],
+  solidao:["soledad","loneliness","solitude"]
+};
+
+let extraWords = [];
+
+queryWords.forEach(w => {
+  if (crossMap[w]) {
+    extraWords = extraWords.concat(crossMap[w]);
+  }
+});
+
+/* =================================
+   EMOTIONAL QUESTION DETECTOR
+================================= */
+
+const emotionalQueries = {
+
+  es: {
+    "me siento": [
+      {title:"¿Por qué me siento solo?", url:"/por-que-me-siento-solo.html"},
+      {title:"¿Por qué me siento vacío?", url:"/por-que-me-siento-vacio.html"},
+      {title:"¿Por qué me siento perdido?", url:"/por-que-me-siento-perdido.html"},
+      {title:"¿Por qué me siento triste sin motivo?", url:"/por-que-me-siento-triste-sin-motivo.html"},
+      {title:"¿Por qué me siento cansado de todo?", url:"/por-que-me-siento-cansado-de-todo.html"}
+    ]
+  },
+
+  en: {
+    "i feel": [
+      {title:"Why do I feel alone?", url:"/en/why-do-i-feel-alone.html"},
+      {title:"Why do I feel sad for no reason?", url:"/en/why-do-i-feel-sad-for-no-reason.html"},
+      {title:"Why do I feel tired of everything?", url:"/en/why-do-i-feel-tired-of-everything.html"}
+    ]
+  },
+
+  fr: {
+    "je me sens": [
+      {title:"Pourquoi je me sens seul ?", url:"/fr/pourquoi-je-me-sens-seul.html"},
+      {title:"Pourquoi je me sens triste sans raison ?", url:"/fr/pourquoi-je-me-sens-triste-sans-raison.html"},
+      {title:"Pourquoi je me sens fatigué de tout ?", url:"/fr/pourquoi-je-me-sens-fatigue-de-tout.html"}
+    ]
+  },
+
+  pt: {
+    "me sinto": [
+      {title:"Por que me sinto sozinho?", url:"/pt/por-que-me-sinto-sozinho.html"},
+      {title:"Por que me sinto triste sem motivo?", url:"/pt/por-que-me-sinto-triste-sem-motivo.html"},
+      {title:"Por que me sinto cansado de tudo?", url:"/pt/por-que-me-sinto-cansado-de-tudo.html"}
+    ]
+  }
+
+};
+
+/* =================================
+   EMOTIONAL SEARCH (DREVAIA)
+================================= */
+
+const emotionalMap = {
+
+  "me siento solo":["soledad","abandono"],
+  "me siento sola":["soledad","abandono"],
+
+  "estoy solo":["soledad","abandono"],
+
+  "me siento perdido":["direccion","proposito","camino"],
+  "estoy perdido":["direccion","proposito"],
+
+  "tengo miedo":["miedo","ansiedad"],
+  "tengo ansiedad":["ansiedad","miedo"],
+
+  "no puedo decir no":["limites","culpa"],
+  "como poner limites":["limites","autoestima"],
+
+  "no se que hacer":["claridad","direccion","proposito"],
+
+  "por que repito relaciones":["patrones","relaciones"],
+  "me cuesta confiar":["confianza","relaciones"]
+};
+
+let emotionalWords = [];
+
+Object.keys(emotionalMap).forEach(phrase => {
+
+  if(query.includes(phrase)){
+    emotionalWords = emotionalWords.concat(emotionalMap[phrase]);
+  }
+
+});
+
+
+/* =================================
+   PALABRAS FINALES DE BÚSQUEDA
+================================= */
+
+const allWords = queryWords
+  .concat(extraWords)
+  .concat(emotionalWords);
+
+
+      /* =================================
+         BUSCAR RESULTADOS
+      ================================= */
+
+      const results = filteredData.map(item => {
+
+        const title = normalize(item.title || "");
+        const keywords = normalize(
+  Array.isArray(item.keywords)
+  ? item.keywords.join(" ")
+  : item.keywords || ""
+);
+
+        let score = 0;
+
+        allWords.forEach(word => {
+          if (title.includes(word)) score += 5;
+          if (keywords.includes(word)) score += 2;
+        });
+
+        return { ...item, score };
+
+      })
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score);
+
+
+      const dropdown = document.getElementById("searchResults");
+      if (!dropdown) return;
+
+      dropdown.innerHTML = "";
+
+      if (results.length === 0) {
+        dropdown.style.display = "none";
+        return;
+      }
+
+      results.slice(0, 6).forEach(item => {
+
+        const div = document.createElement("div");
+        div.className = "search-item";
+
+/* resaltar palabras buscadas */
+
+let highlightedTitle = item.title || "";
+
+/* escapar caracteres especiales para regex */
+function escapeRegex(word){
+  return word.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+}
+
+allWords.forEach(word => {
+
+  const safeWord = escapeRegex(word);
+
+  const regex = new RegExp(`(${safeWord})`, "gi");
+
+  highlightedTitle = highlightedTitle.replace(
+    regex,
+    `<mark class="search-highlight">$1</mark>`
+  );
+
+});
+
+const typeLabels = {
+  ebook: "📖 Ebook",
+  blog: "📘 Blog",
+  emocion: "💭 Emoción",
+  emotion: "💭 Emotion"
+};
+
+const typeLabel = typeLabels[item.type] || "📘 Blog";
+
+div.innerHTML = `
+  <span class="search-type">${typeLabel}</span>
+  <span class="search-title">${highlightedTitle}</span>
+`;
+
+div.onclick = () => {
+
+  const lang = localStorage.getItem("drevaia_lang");
+
+  if(lang && lang !== "es" && item.url.startsWith("/")){
+    window.location.href = "/" + lang + item.url;
+  } else {
+    window.location.href = item.url;
+  }
+
+};
+
+        dropdown.appendChild(div);
+
+      });
+
+      dropdown.style.display = "block";
+
+    });
+
+  });
+
+}
+
+</script>
+
+
+
+<script>
+/* =================================
+   TEXTO DEL SELECTOR DE IDIOMA
+================================= */
+
+(function(){
+
+  const text = document.querySelector(".language-text");
+  if(!text) return;
+
+  const lang = document.documentElement.lang || "es";
+
+  const labels = {
+    es: "Elige tu idioma",
+    en: "Select language",
+    fr: "Choisissez votre langue",
+    pt: "Escolha seu idioma"
+  };
+
+  text.textContent = labels[lang] || "Select language";
+
+})();
+</script>
+
+<script>
+/* =========================================
+   DREVAIA SMART LANGUAGE DETECTOR
+========================================= */
+
+(function(){
+
+const supported = ["es","en","fr","pt"];
+
+/* idioma guardado por el usuario */
+const savedLang = localStorage.getItem("drevaia_lang");
+
+/* idioma del navegador */
+const browserLang = (navigator.language || "es")
+                    .substring(0,2)
+                    .toLowerCase();
+
+/* ruta actual */
+const path = window.location.pathname;
+
+
+/* =========================================
+   SI EL USUARIO YA ELIGIÓ IDIOMA
+========================================= */
+
+if(savedLang){
+
+  if(
+    supported.includes(savedLang) &&
+    savedLang !== "es" &&
+    !path.startsWith("/" + savedLang)
+  ){
+    window.location.replace("/" + savedLang + "/");
+  }
+
+  return;
+
+}
+
+
+/* =========================================
+   SUGERENCIA DE IDIOMA EN PRIMERA VISITA
+========================================= */
+
+if(path === "/" || path === "/index.html" || path === ""){
+
+  if(
+    supported.includes(browserLang) &&
+    browserLang !== "es"
+  ){
+
+    const suggestion = confirm(
+      "Your browser language is " + browserLang.toUpperCase() +
+      ". Do you want to open the site in that language?"
+    );
+
+    if(suggestion){
+
+      localStorage.setItem("drevaia_lang", browserLang);
+
+      window.location.replace("/" + browserLang + "/");
+
+    }
+
+  }
+
+}
+
+})();
+</script>
+
+</body>
+</html>

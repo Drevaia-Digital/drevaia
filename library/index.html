@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Biblioteca Drevaia — Lecturas que te encuentran</title>
+
+  <meta name="description" content="No elijas por título. Elige por lo que hoy te pesa, te llama o te sostiene. Biblioteca emocional de Drevaia Digital: Lecturas que acompañan procesos de sanación.">
+  <meta name="robots" content="index, follow">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="canonical" href="https://drevaia.com/library/">
+
+  <link rel="stylesheet" href="/css/drevaia.css">
+
+<!-- SEO semántico Biblioteca Drevaia -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Biblioteca Drevaia",
+  "description": "Biblioteca emocional de lecturas conscientes. No se elige por título, se elige por lo que se siente.",
+  "url": "https://drevaia.com/library/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Drevaia Digital",
+    "url": "https://drevaia.com/"
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<header class="hero">
+  <h1>Biblioteca Drevaia</h1>
+
+  <p class="brand-claim">
+    La palabra que abre portales de sanación.
+  </p>
+
+  <p>
+    No es una tienda.<br>
+    Es un refugio emocional.<br>
+    Aquí no eliges por lógica,<br>
+    eliges por lo que hoy te llama, te duele<br>
+    o te sostiene.
+  </p>
+</header>
+
+<main class="container">
+
+  <section aria-label="Explorar lecturas emocionales">
+
+    <p class="intro" style="text-align:center; max-width:520px; margin:0 auto 26px; color:rgba(255,255,255,0.65);">
+      Puedes buscar desde una emoción, una herida,
+      una palabra que no te suelta…
+      o simplemente dejar que una lectura te encuentre.
+    </p>
+
+    <!-- Buscador emocional -->
+    <input
+      id="search"
+      type="text"
+      placeholder="Busca por emoción, herida o palabra…"
+      aria-label="Buscar lecturas emocionales"
+    >
+
+    <!-- Tarjetas dinámicas -->
+    <section
+      id="libraryGrid"
+      class="grid"
+      aria-live="polite"
+      aria-label="Listado de lecturas Drevaia"
+    ></section>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    𝑵𝒐𝒂 𝑫𝒓𝒆𝒗𝒂𝒊𝒂 — Drevaia Digital
+  </p>
+</footer>
+
+<!-- Motor Biblioteca -->
+<script src="../js/library-engine.js"></script>
+
+</body>
+</html>
